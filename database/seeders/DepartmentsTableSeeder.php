@@ -58,10 +58,10 @@ class DepartmentsTableSeeder extends Seeder
                 'department'  => 'FTP',
             ],
             [
-                'department'  => 'DLL',
+                'department'  => 'MEM',
             ],
             [
-                'department'  => 'MEM',
+                'department'  => 'DLL',
             ],
         ];
 
