@@ -19,10 +19,10 @@ class DashboardController extends Controller
      */
     public function index(Request $request)
     {
-        $cibm = $cbmi = $cacc = $ccom = $chtb = $ccbz = $cpsy = $cimt = $cisb = $cvcd = $cina = $cfpd = $cmed = $cftp = 0;
-        $pibm = $pbmi = $pacc = $pcom = $phtb = $pcbz = $ppsy = $pimt = $pisb = $pvcd = $pina = $pfpd = $pmed = $pftp = 0;
-        $dibm = $dbmi = $dacc = $dcom = $dhtb = $dcbz = $dpsy = $dimt = $disb = $dvcd = $dina = $dfpd = $dmed = $dftp = 0;
-        $bibm = $bbmi = $bacc = $bcom = $bhtb = $bcbz = $bpsy = $bimt = $bisb = $bvcd = $bina = $bfpd = $bmed = $bftp = 0;
+        $cibm = $cbmi = $cacc = $ccom = $chtb = $ccbz = $cpsy = $cimt = $cisb = $cvcd = $cina = $cfpd = $cmed = $cftp = $cmem = $cdll = 0;
+        $pibm = $pbmi = $pacc = $pcom = $phtb = $pcbz = $ppsy = $pimt = $pisb = $pvcd = $pina = $pfpd = $pmed = $pftp = $pmem = $pdll = 0;
+        $dibm = $dbmi = $dacc = $dcom = $dhtb = $dcbz = $dpsy = $dimt = $disb = $dvcd = $dina = $dfpd = $dmed = $dftp = $dmem = $ddll = 0;
+        $bibm = $bbmi = $bacc = $bcom = $bhtb = $bcbz = $bpsy = $bimt = $bisb = $bvcd = $bina = $bfpd = $bmed = $bftp = $bmem = $bdll = 0;
         $cp = $cd = $cdepartments = $cf = $cg = [];
         $pp = $pd = $pdepartments = $pf = $pg = [];
         $dp = $dd = $ddepartments = $df = $dg = [];
