@@ -64,7 +64,7 @@
                                                 <h6 class="font-bold pl-2">Nomor Pencatatan</h6>
                                                 <input type="search" name="nomor_pencatatan" value="{{ request('nomor_pencatatan') }}" class="block w-full pl-4 pr-10 text-sm leading-5 transition rounded-full shadow-sm border-secondary-300 bg-secondary-50 focus:bg-white focus:border-blue-300 focus:ring focus:ring-blue-200 focus:ring-opacity-50">
                                                 <h6 class="font-bold pl-2">Tanggal Penerimaan</h6>
-                                                <input type="search" name="tanggal_penerimaan" value="{{ request('tanggal_penerimaan') }}" class="block w-full pl-4 pr-10 text-sm leading-5 transition rounded-full shadow-sm border-secondary-300 bg-secondary-50 focus:bg-white focus:border-blue-300 focus:ring focus:ring-blue-200 focus:ring-opacity-50">
+                                                <input type="date" name="tanggal_penerimaan" value="{{ request('tanggal_penerimaan') }}" class="block w-full pl-4 pr-10 text-sm leading-5 transition rounded-full shadow-sm border-secondary-300 bg-secondary-50 focus:bg-white focus:border-blue-300 focus:ring focus:ring-blue-200 focus:ring-opacity-50">
                                                 <h6 class="font-bold pl-2">Nama Pencipta</h6>
                                                 <input type="search" name="pencipta_nama" value="{{ request('pencipta_nama') }}" class="block w-full pl-4 pr-10 text-sm leading-5 transition rounded-full shadow-sm border-secondary-300 bg-secondary-50 focus:bg-white focus:border-blue-300 focus:ring focus:ring-blue-200 focus:ring-opacity-50">
                                                 <h6 class="font-bold pl-2">NIDN Pencipta</h6>
