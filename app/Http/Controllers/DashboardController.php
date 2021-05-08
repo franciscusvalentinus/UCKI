@@ -27,6 +27,19 @@ class DashboardController extends Controller
         $pp = $pd = $pdepartments = $pf = $pg = [];
         $dp = $dd = $ddepartments = $df = $dg = [];
         $bp = $bd = $bdepartments = $bf = $bg = [];
+        $cibmyear = $cbmiyear = $caccyear = $ccomyear = $chtbyear = $ccbzyear = $cpsyyear = $cimtyear = $cisbyear = $cvcdyear = $cinayear = $cfpdyear = $cmedyear = $cftpyear = $cmemyear = $cdllyear = 0;
+        $pibmyear = $pbmiyear = $paccyear = $pcomyear = $phtbyear = $pcbzyear = $ppsyyear = $pimtyear = $pisbyear = $pvcdyear = $pinayear = $pfpdyear = $pmedyear = $pftpyear = $pmemyear = $pdllyear = 0;
+        $dibmyear = $dbmiyear = $daccyear = $dcomyear = $dhtbyear = $dcbzyear = $dpsyyear = $dimtyear = $disbyear = $dvcdyear = $dinayear = $dfpdyear = $dmedyear = $dftpyear = $dmemyear = $ddllyear = 0;
+        $bibmyear = $bbmiyear = $baccyear = $bcomyear = $bhtbyear = $bcbzyear = $bpsyyear = $bimtyear = $bisbyear = $bvcdyear = $binayear = $bfpdyear = $bmedyear = $bftpyear = $bmemyear = $bdllyear = 0;
+        $cpyear = $cdyear = $cdepartmentsyear = $cfyear = $cgyear = [];
+        $ppyear = $pdyear = $pdepartmentsyear = $pfyear = $pgyear = [];
+        $dpyear = $ddyear = $ddepartmentsyear = $dfyear = $dgyear = [];
+        $bpyear = $bdyear = $bdepartmentsyear = $bfyear = $bgyear = [];
+
+        $copyright = Copyright::all();
+        $patent = Patent::all();
+        $design = Design::all();
+        $brand = Brand::all();
 
         $copyrights = Copyright::pluck('helper');
 
@@ -344,11 +357,6 @@ class DashboardController extends Controller
             }
         }
 
-        $copyright = Copyright::all();
-        $patent = Patent::all();
-        $design = Design::all();
-        $brand = Brand::all();
-
         $year = $request->keyword;
         $yearnext = $year + 1;
         $yearprev = $year - 1;
@@ -382,12 +390,332 @@ class DashboardController extends Controller
         $brandnext = Brand::whereBetween('tanggal_permohonan', [$finalnow1, $finalnext])->get();
         $brandprev = Brand::whereBetween('tanggal_permohonan', [$finalnow2, $finalprev])->get();
 
+        $copyrightsyear = Copyright::whereYear('tanggal_permohonan', $request->keyword)->pluck('helper');
+
+        foreach ($copyrightsyear as $c) {
+            $cpyear[] = explode(',', $c);
+        }
+
+        foreach ($cpyear as $c) {
+            $cdyear[] = array_values( array_flip( array_flip($c)));
+        }
+
+        foreach ($cdyear as $c) {
+            $cdepartmentsyear[] = Lecturer::select('department_id')->whereIn('id', $c)->get();
+        }
+
+        foreach ($cdepartmentsyear as $c) {
+            foreach ($c as $d) {
+                $ceyear[] = $d->department_id;
+            }
+            $cfyear[] = $ceyear;
+            unset($ceyear);
+        }
+
+        foreach ($cfyear as $c) {
+            $cgyear[] = array_values( array_flip( array_flip($c)));
+        }
+
+        foreach ($cgyear as $d) {
+            foreach ($d as $c) {
+                if ($c == 1) {
+                    ++$cibmyear;
+                }
+                elseif ($c == 2) {
+                    ++$cbmiyear;
+                }
+                elseif ($c == 3) {
+                    ++$caccyear;
+                }
+                elseif ($c == 4) {
+                    ++$ccomyear;
+                }
+                elseif ($c == 5) {
+                    ++$chtbyear;
+                }
+                elseif ($c == 6) {
+                    ++$ccbzyear;
+                }
+                elseif ($c == 7) {
+                    ++$cpsyyear;
+                }
+                elseif ($c == 8) {
+                    ++$cimtyear;
+                }
+                elseif ($c == 9) {
+                    ++$cisbyear;
+                }
+                elseif ($c == 10) {
+                    ++$cvcdyear;
+                }
+                elseif ($c == 11) {
+                    ++$cinayear;
+                }
+                elseif ($c == 12) {
+                    ++$cfpdyear;
+                }
+                elseif ($c == 13) {
+                    ++$cmedyear;
+                }
+                elseif ($c == 14) {
+                    ++$cftpyear;
+                }
+                elseif ($c == 15) {
+                    ++$cmemyear;
+                }
+                elseif ($c == 16) {
+                    ++$cdllyear;
+                }
+            }
+        }
+
+        $patentsyear = Patent::whereYear('tanggal_permohonan', $request->keyword)->pluck('helper');
+
+        foreach ($patentsyear as $p) {
+            $ppyear[] = explode(',', $p);
+        }
+
+        foreach ($ppyear as $p) {
+            $pdyear[] = array_values( array_flip( array_flip($p)));
+        }
+
+        foreach ($pdyear as $p) {
+            $pdepartmentsyear[] = Lecturer::select('department_id')->whereIn('id', $p)->get();
+        }
+
+        foreach ($pdepartmentsyear as $p) {
+            foreach ($p as $d) {
+                $peyear[] = $d->department_id;
+            }
+            $pfyear[] = $peyear;
+            unset($peyear);
+        }
+
+        foreach ($pfyear as $p) {
+            $pgyear[] = array_values( array_flip( array_flip($p)));
+        }
+
+        foreach ($pgyear as $d) {
+            foreach ($d as $p) {
+                if ($p == 1) {
+                    ++$pibmyear;
+                }
+                elseif ($p == 2) {
+                    ++$pbmiyear;
+                }
+                elseif ($p == 3) {
+                    ++$paccyear;
+                }
+                elseif ($p == 4) {
+                    ++$pcomyear;
+                }
+                elseif ($p == 5) {
+                    ++$phtbyear;
+                }
+                elseif ($p == 6) {
+                    ++$pcbzyear;
+                }
+                elseif ($p == 7) {
+                    ++$ppsyyear;
+                }
+                elseif ($p == 8) {
+                    ++$pimtyear;
+                }
+                elseif ($p == 9) {
+                    ++$pisbyear;
+                }
+                elseif ($p == 10) {
+                    ++$pvcdyear;
+                }
+                elseif ($p == 11) {
+                    ++$pinayear;
+                }
+                elseif ($p == 12) {
+                    ++$pfpdyear;
+                }
+                elseif ($p == 13) {
+                    ++$pmedyear;
+                }
+                elseif ($p == 14) {
+                    ++$pftpyear;
+                }
+                elseif ($p == 15) {
+                    ++$pmemyear;
+                }
+                elseif ($p == 16) {
+                    ++$pdllyear;
+                }
+            }
+        }
+
+        $designsyear = Design::whereYear('tanggal_permohonan', $request->keyword)->pluck('helper');
+
+        foreach ($designsyear as $d) {
+            $dpyear[] = explode(',', $d);
+        }
+
+        foreach ($dpyear as $d) {
+            $ddyear[] = array_values( array_flip( array_flip($d)));
+        }
+
+        foreach ($ddyear as $d) {
+            $ddepartmentsyear[] = Lecturer::select('department_id')->whereIn('id', $d)->get();
+        }
+
+        foreach ($ddepartmentsyear as $c) {
+            foreach ($c as $d) {
+                $deyear[] = $d->department_id;
+            }
+            $dfyear[] = $deyear;
+            unset($deyear);
+        }
+
+        foreach ($dfyear as $d) {
+            $dgyear[] = array_values( array_flip( array_flip($d)));
+        }
+
+        foreach ($dgyear as $d) {
+            foreach ($d as $c) {
+                if ($c == 1) {
+                    ++$dibmyear;
+                }
+                elseif ($c == 2) {
+                    ++$dbmiyear;
+                }
+                elseif ($c == 3) {
+                    ++$daccyear;
+                }
+                elseif ($c == 4) {
+                    ++$dcomyear;
+                }
+                elseif ($c == 5) {
+                    ++$dhtbyear;
+                }
+                elseif ($c == 6) {
+                    ++$dcbzyear;
+                }
+                elseif ($c == 7) {
+                    ++$dpsyyear;
+                }
+                elseif ($c == 8) {
+                    ++$dimtyear;
+                }
+                elseif ($c == 9) {
+                    ++$disbyear;
+                }
+                elseif ($c == 10) {
+                    ++$dvcdyear;
+                }
+                elseif ($c == 11) {
+                    ++$dinayear;
+                }
+                elseif ($c == 12) {
+                    ++$dfpdyear;
+                }
+                elseif ($c == 13) {
+                    ++$dmedyear;
+                }
+                elseif ($c == 14) {
+                    ++$dftpyear;
+                }
+                elseif ($c == 15) {
+                    ++$dmemyear;
+                }
+                elseif ($c == 16) {
+                    ++$ddllyear;
+                }
+            }
+        }
+
+        $brandsyear = Brand::whereYear('tanggal_permohonan', $request->keyword)->pluck('helper');
+
+        foreach ($brandsyear as $b) {
+            $bpyear[] = explode(',', $b);
+        }
+
+        foreach ($bpyear as $b) {
+            $bdyear[] = array_values( array_flip( array_flip($b)));
+        }
+
+        foreach ($bdyear as $b) {
+            $bdepartmentsyear[] = Lecturer::select('department_id')->whereIn('id', $b)->get();
+        }
+
+        foreach ($bdepartmentsyear as $b) {
+            foreach ($b as $d) {
+                $beyear[] = $d->department_id;
+            }
+            $bfyear[] = $beyear;
+            unset($beyear);
+        }
+
+        foreach ($bfyear as $b) {
+            $bgyear[] = array_values( array_flip( array_flip($b)));
+        }
+
+        foreach ($bgyear as $d) {
+            foreach ($d as $b) {
+                if ($b == 1) {
+                    ++$bibmyear;
+                }
+                elseif ($b == 2) {
+                    ++$bbmiyear;
+                }
+                elseif ($b == 3) {
+                    ++$baccyear;
+                }
+                elseif ($b == 4) {
+                    ++$bcomyear;
+                }
+                elseif ($b == 5) {
+                    ++$bhtbyear;
+                }
+                elseif ($b == 6) {
+                    ++$bcbzyear;
+                }
+                elseif ($b == 7) {
+                    ++$bpsyyear;
+                }
+                elseif ($b == 8) {
+                    ++$bimtyear;
+                }
+                elseif ($b == 9) {
+                    ++$bisbyear;
+                }
+                elseif ($b == 10) {
+                    ++$bvcdyear;
+                }
+                elseif ($b == 11) {
+                    ++$binayear;
+                }
+                elseif ($b == 12) {
+                    ++$bfpdyear;
+                }
+                elseif ($b == 13) {
+                    ++$bmedyear;
+                }
+                elseif ($b == 14) {
+                    ++$bftpyear;
+                }
+                elseif ($b == 15) {
+                    ++$bmemyear;
+                }
+                elseif ($b == 16) {
+                    ++$bdllyear;
+                }
+            }
+        }
+
         return view('dashboard', compact('cibm', 'cbmi', 'cacc', 'ccom', 'chtb', 'ccbz', 'cpsy', 'cimt', 'cisb', 'cvcd', 'cina', 'cfpd', 'cmed', 'cftp', 'cmem', 'cdll',
             'pibm', 'pbmi', 'pacc', 'pcom', 'phtb', 'pcbz', 'ppsy', 'pimt', 'pisb', 'pvcd', 'pina', 'pfpd', 'pmed', 'pftp', 'pmem', 'pdll',
             'dibm', 'dbmi', 'dacc', 'dcom', 'dhtb', 'dcbz', 'dpsy', 'dimt', 'disb', 'dvcd', 'dina', 'dfpd', 'dmed', 'dftp', 'dmem', 'ddll',
             'bibm', 'bbmi', 'bacc', 'bcom', 'bhtb', 'bcbz', 'bpsy', 'bimt', 'bisb', 'bvcd', 'bina', 'bfpd', 'bmed', 'bftp', 'bmem', 'bdll',
         'copyright', 'patent', 'design', 'brand', 'year', 'yearnext', 'yearprev', 'copyrightyear', 'patentyear', 'designyear', 'brandyear',
-        'copyrightnext', 'copyrightprev', 'patentnext', 'patentprev', 'designnext', 'designprev', 'brandnext', 'brandprev'));
+        'copyrightnext', 'copyrightprev', 'patentnext', 'patentprev', 'designnext', 'designprev', 'brandnext', 'brandprev',
+            'cibmyear', 'cbmiyear', 'caccyear', 'ccomyear', 'chtbyear', 'ccbzyear', 'cpsyyear', 'cimtyear', 'cisbyear', 'cvcdyear', 'cinayear', 'cfpdyear', 'cmedyear', 'cftpyear', 'cmemyear', 'cdllyear',
+            'pibmyear', 'pbmiyear', 'paccyear', 'pcomyear', 'phtbyear', 'pcbzyear', 'ppsyyear', 'pimtyear', 'pisbyear', 'pvcdyear', 'pinayear', 'pfpdyear', 'pmedyear', 'pftpyear', 'pmemyear', 'pdllyear',
+            'dibmyear', 'dbmiyear', 'daccyear', 'dcomyear', 'dhtbyear', 'dcbzyear', 'dpsyyear', 'dimtyear', 'disbyear', 'dvcdyear', 'dinayear', 'dfpdyear', 'dmedyear', 'dftpyear', 'dmemyear', 'ddllyear',
+            'bibmyear', 'bbmiyear', 'baccyear', 'bcomyear', 'bhtbyear', 'bcbzyear', 'bpsyyear', 'bimtyear', 'bisbyear', 'bvcdyear', 'binayear', 'bfpdyear', 'bmedyear', 'bftpyear', 'bmemyear', 'bdllyear',));
     }
 
     /**
