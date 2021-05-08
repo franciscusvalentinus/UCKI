@@ -156,28 +156,28 @@
                         <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
                             <div>
                                 <p class="text-3xl font-semibold text-center text-gray-800">{{ $cibm }}</p>
-                                <p class="text-lg text-center text-gray-500">Hak Cipta IBM</p>
+                                <p class="text-lg text-center text-gray-500">Hak Cipta IBM-RC</p>
                             </div>
                         </div>
 
                         <div id="jh-stats-negative" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
                             <div>
                                 <p class="text-3xl font-semibold text-center text-gray-800">{{ $pibm }}</p>
-                                <p class="text-lg text-center text-gray-500">Paten IBM</p>
+                                <p class="text-lg text-center text-gray-500">Paten IBM-RC</p>
                             </div>
                         </div>
 
                         <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
                             <div>
                                 <p class="text-3xl font-semibold text-center text-gray-800">{{ $dibm }}</p>
-                                <p class="text-lg text-center text-gray-500">Desain Industri IBM</p>
+                                <p class="text-lg text-center text-gray-500">Desain Industri IBM-RC</p>
                             </div>
                         </div>
 
                         <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
                             <div>
                                 <p class="text-3xl font-semibold text-center text-gray-800">{{ $bibm }}</p>
-                                <p class="text-lg text-center text-gray-500">Merek IBM</p>
+                                <p class="text-lg text-center text-gray-500">Merek IBM-RC</p>
                             </div>
                         </div>
                     </div>
@@ -188,28 +188,28 @@
                         <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
                             <div>
                                 <p class="text-3xl font-semibold text-center text-gray-800">{{ $cbmi }}</p>
-                                <p class="text-lg text-center text-gray-500">Hak Cipta BMI</p>
+                                <p class="text-lg text-center text-gray-500">Hak Cipta IBM-IC</p>
                             </div>
                         </div>
 
                         <div id="jh-stats-negative" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
                             <div>
                                 <p class="text-3xl font-semibold text-center text-gray-800">{{ $pbmi }}</p>
-                                <p class="text-lg text-center text-gray-500">Paten BMI</p>
+                                <p class="text-lg text-center text-gray-500">Paten IBM-IC</p>
                             </div>
                         </div>
 
                         <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
                             <div>
                                 <p class="text-3xl font-semibold text-center text-gray-800">{{ $dbmi }}</p>
-                                <p class="text-lg text-center text-gray-500">Desain Industri BMI</p>
+                                <p class="text-lg text-center text-gray-500">Desain Industri IBM-IC</p>
                             </div>
                         </div>
 
                         <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
                             <div>
                                 <p class="text-3xl font-semibold text-center text-gray-800">{{ $bbmi }}</p>
-                                <p class="text-lg text-center text-gray-500">Merek BMI</p>
+                                <p class="text-lg text-center text-gray-500">Merek IBM-IC</p>
                             </div>
                         </div>
                     </div>
@@ -252,28 +252,28 @@
                         <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
                             <div>
                                 <p class="text-3xl font-semibold text-center text-gray-800">{{ $ccom }}</p>
-                                <p class="text-lg text-center text-gray-500">Hak Cipta COM</p>
+                                <p class="text-lg text-center text-gray-500">Hak Cipta FIKOM</p>
                             </div>
                         </div>
 
                         <div id="jh-stats-negative" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
                             <div>
                                 <p class="text-3xl font-semibold text-center text-gray-800">{{ $pcom }}</p>
-                                <p class="text-lg text-center text-gray-500">Paten COM</p>
+                                <p class="text-lg text-center text-gray-500">Paten FIKOM</p>
                             </div>
                         </div>
 
                         <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
                             <div>
                                 <p class="text-3xl font-semibold text-center text-gray-800">{{ $dcom }}</p>
-                                <p class="text-lg text-center text-gray-500">Desain Industri COM</p>
+                                <p class="text-lg text-center text-gray-500">Desain Industri FIKOM</p>
                             </div>
                         </div>
 
                         <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
                             <div>
                                 <p class="text-3xl font-semibold text-center text-gray-800">{{ $bcom }}</p>
-                                <p class="text-lg text-center text-gray-500">Merek COM</p>
+                                <p class="text-lg text-center text-gray-500">Merek FIKOM</p>
                             </div>
                         </div>
                     </div>
@@ -604,28 +604,28 @@
                         <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
                             <div>
                                 <p class="text-3xl font-semibold text-center text-gray-800">{{ $cmem }}</p>
-                                <p class="text-lg text-center text-gray-500">Hak Cipta S2</p>
+                                <p class="text-lg text-center text-gray-500">Hak Cipta S2 Manajemen</p>
                             </div>
                         </div>
 
                         <div id="jh-stats-negative" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
                             <div>
                                 <p class="text-3xl font-semibold text-center text-gray-800">{{ $pmem }}</p>
-                                <p class="text-lg text-center text-gray-500">Paten S2</p>
+                                <p class="text-lg text-center text-gray-500">Paten S2 Manajemen</p>
                             </div>
                         </div>
 
                         <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
                             <div>
                                 <p class="text-3xl font-semibold text-center text-gray-800">{{ $dmem }}</p>
-                                <p class="text-lg text-center text-gray-500">Desain Industri S2</p>
+                                <p class="text-lg text-center text-gray-500">Desain Industri S2 Manajemen</p>
                             </div>
                         </div>
 
                         <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
                             <div>
                                 <p class="text-3xl font-semibold text-center text-gray-800">{{ $bmem }}</p>
-                                <p class="text-lg text-center text-gray-500">Merek S2</p>
+                                <p class="text-lg text-center text-gray-500">Merek S2 Manajemen</p>
                             </div>
                         </div>
                     </div>
@@ -636,28 +636,28 @@
                         <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
                             <div>
                                 <p class="text-3xl font-semibold text-center text-gray-800">{{ $cdll }}</p>
-                                <p class="text-lg text-center text-gray-500">Hak Cipta DLL</p>
+                                <p class="text-lg text-center text-gray-500">Hak Cipta Lain-lain</p>
                             </div>
                         </div>
 
                         <div id="jh-stats-negative" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
                             <div>
                                 <p class="text-3xl font-semibold text-center text-gray-800">{{ $pdll }}</p>
-                                <p class="text-lg text-center text-gray-500">Paten DLL</p>
+                                <p class="text-lg text-center text-gray-500">Paten Lain-lain</p>
                             </div>
                         </div>
 
                         <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
                             <div>
                                 <p class="text-3xl font-semibold text-center text-gray-800">{{ $ddll }}</p>
-                                <p class="text-lg text-center text-gray-500">Desain Industri DLL</p>
+                                <p class="text-lg text-center text-gray-500">Desain Industri Lain-lain</p>
                             </div>
                         </div>
 
                         <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
                             <div>
                                 <p class="text-3xl font-semibold text-center text-gray-800">{{ $bdll }}</p>
-                                <p class="text-lg text-center text-gray-500">Merek DLL</p>
+                                <p class="text-lg text-center text-gray-500">Merek Lain-lain</p>
                             </div>
                         </div>
                     </div>
