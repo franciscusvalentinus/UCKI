@@ -16,16 +16,16 @@ class DepartmentsTableSeeder extends Seeder
     {
         $departments = [
             [
-                'department'  => 'IBM',
+                'department'  => 'IBM-RC',
             ],
             [
-                'department'  => 'BMI',
+                'department'  => 'IBM-IC',
             ],
             [
                 'department'  => 'ACC',
             ],
             [
-                'department'  => 'COM',
+                'department'  => 'FIKOM',
             ],
             [
                 'department'  => 'HTB',
@@ -61,7 +61,7 @@ class DepartmentsTableSeeder extends Seeder
                 'department'  => 'MEM',
             ],
             [
-                'department'  => 'DLL',
+                'department'  => 'Lain-lain',
             ],
         ];
 
