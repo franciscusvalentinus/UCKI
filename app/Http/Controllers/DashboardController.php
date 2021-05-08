@@ -98,6 +98,12 @@ class DashboardController extends Controller
                 elseif ($c == 14) {
                     ++$cftp;
                 }
+                elseif ($c == 15) {
+                    ++$cmem;
+                }
+                elseif ($c == 16) {
+                    ++$cdll;
+                }
             }
         }
 
@@ -170,6 +176,12 @@ class DashboardController extends Controller
                 }
                 elseif ($p == 14) {
                     ++$pftp;
+                }
+                elseif ($p == 15) {
+                    ++$pmem;
+                }
+                elseif ($p == 16) {
+                    ++$pdll;
                 }
             }
         }
@@ -244,6 +256,12 @@ class DashboardController extends Controller
                 elseif ($c == 14) {
                     ++$dftp;
                 }
+                elseif ($c == 15) {
+                    ++$dmem;
+                }
+                elseif ($c == 16) {
+                    ++$ddll;
+                }
             }
         }
 
@@ -317,6 +335,12 @@ class DashboardController extends Controller
                 elseif ($b == 14) {
                     ++$bftp;
                 }
+                elseif ($b == 15) {
+                    ++$bmem;
+                }
+                elseif ($b == 16) {
+                    ++$bdll;
+                }
             }
         }
 
@@ -358,10 +382,10 @@ class DashboardController extends Controller
         $brandnext = Brand::whereBetween('tanggal_permohonan', [$finalnow1, $finalnext])->get();
         $brandprev = Brand::whereBetween('tanggal_permohonan', [$finalnow2, $finalprev])->get();
 
-        return view('dashboard', compact('cibm', 'cbmi', 'cacc', 'ccom', 'chtb', 'ccbz', 'cpsy', 'cimt', 'cisb', 'cvcd', 'cina', 'cfpd', 'cmed', 'cftp',
-            'pibm', 'pbmi', 'pacc', 'pcom', 'phtb', 'pcbz', 'ppsy', 'pimt', 'pisb', 'pvcd', 'pina', 'pfpd', 'pmed', 'pftp',
-            'dibm', 'dbmi', 'dacc', 'dcom', 'dhtb', 'dcbz', 'dpsy', 'dimt', 'disb', 'dvcd', 'dina', 'dfpd', 'dmed', 'dftp',
-            'bibm', 'bbmi', 'bacc', 'bcom', 'bhtb', 'bcbz', 'bpsy', 'bimt', 'bisb', 'bvcd', 'bina', 'bfpd', 'bmed', 'bftp',
+        return view('dashboard', compact('cibm', 'cbmi', 'cacc', 'ccom', 'chtb', 'ccbz', 'cpsy', 'cimt', 'cisb', 'cvcd', 'cina', 'cfpd', 'cmed', 'cftp', 'cmem', 'cdll',
+            'pibm', 'pbmi', 'pacc', 'pcom', 'phtb', 'pcbz', 'ppsy', 'pimt', 'pisb', 'pvcd', 'pina', 'pfpd', 'pmed', 'pftp', 'pmem', 'pdll',
+            'dibm', 'dbmi', 'dacc', 'dcom', 'dhtb', 'dcbz', 'dpsy', 'dimt', 'disb', 'dvcd', 'dina', 'dfpd', 'dmed', 'dftp', 'dmem', 'ddll',
+            'bibm', 'bbmi', 'bacc', 'bcom', 'bhtb', 'bcbz', 'bpsy', 'bimt', 'bisb', 'bvcd', 'bina', 'bfpd', 'bmed', 'bftp', 'bmem', 'bdll',
         'copyright', 'patent', 'design', 'brand', 'year', 'yearnext', 'yearprev', 'copyrightyear', 'patentyear', 'designyear', 'brandyear',
         'copyrightnext', 'copyrightprev', 'patentnext', 'patentprev', 'designnext', 'designprev', 'brandnext', 'brandprev'));
     }
