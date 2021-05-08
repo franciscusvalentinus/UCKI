@@ -598,6 +598,70 @@
                         </div>
                     </div>
                 </div>
+
+                <div id="wrapper" class="max-w-xl px-4 py-4 mx-auto">
+                    <div class="sm:grid sm:h-44 sm:grid-flow-row sm:gap-4 sm:grid-cols-4">
+                        <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
+                            <div>
+                                <p class="text-3xl font-semibold text-center text-gray-800">{{ $cmem }}</p>
+                                <p class="text-lg text-center text-gray-500">Hak Cipta S2</p>
+                            </div>
+                        </div>
+
+                        <div id="jh-stats-negative" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                            <div>
+                                <p class="text-3xl font-semibold text-center text-gray-800">{{ $pmem }}</p>
+                                <p class="text-lg text-center text-gray-500">Paten S2</p>
+                            </div>
+                        </div>
+
+                        <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                            <div>
+                                <p class="text-3xl font-semibold text-center text-gray-800">{{ $dmem }}</p>
+                                <p class="text-lg text-center text-gray-500">Desain Industri S2</p>
+                            </div>
+                        </div>
+
+                        <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                            <div>
+                                <p class="text-3xl font-semibold text-center text-gray-800">{{ $bmem }}</p>
+                                <p class="text-lg text-center text-gray-500">Merek S2</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="wrapper" class="max-w-xl px-4 py-4 mx-auto">
+                    <div class="sm:grid sm:h-44 sm:grid-flow-row sm:gap-4 sm:grid-cols-4">
+                        <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
+                            <div>
+                                <p class="text-3xl font-semibold text-center text-gray-800">{{ $cdll }}</p>
+                                <p class="text-lg text-center text-gray-500">Hak Cipta DLL</p>
+                            </div>
+                        </div>
+
+                        <div id="jh-stats-negative" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                            <div>
+                                <p class="text-3xl font-semibold text-center text-gray-800">{{ $pdll }}</p>
+                                <p class="text-lg text-center text-gray-500">Paten DLL</p>
+                            </div>
+                        </div>
+
+                        <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                            <div>
+                                <p class="text-3xl font-semibold text-center text-gray-800">{{ $ddll }}</p>
+                                <p class="text-lg text-center text-gray-500">Desain Industri DLL</p>
+                            </div>
+                        </div>
+
+                        <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                            <div>
+                                <p class="text-3xl font-semibold text-center text-gray-800">{{ $bdll }}</p>
+                                <p class="text-lg text-center text-gray-500">Merek DLL</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
