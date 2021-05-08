@@ -120,6 +120,7 @@
                 @endif
 
                 <div id="wrapper" class="max-w-xl px-4 py-4 mx-auto">
+                    <p>Total Keseluruhan</p>
                     <div class="sm:grid sm:h-44 sm:grid-flow-row sm:gap-4 sm:grid-cols-4">
                         <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
                             <div>
@@ -152,6 +153,7 @@
                 </div>
 
                 <div id="wrapper" class="max-w-xl px-4 py-4 mx-auto">
+                    <p>Jurusan Manajemen (IBM-RC)</p>
                     <div class="sm:grid sm:h-44 sm:grid-flow-row sm:gap-4 sm:grid-cols-4">
                         <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
                             <div>
@@ -184,6 +186,7 @@
                 </div>
 
                 <div id="wrapper" class="max-w-xl px-4 py-4 mx-auto">
+                    <p>Jurusan Manajemen (IBM-IC)</p>
                     <div class="sm:grid sm:h-44 sm:grid-flow-row sm:gap-4 sm:grid-cols-4">
                         <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
                             <div>
@@ -216,6 +219,7 @@
                 </div>
 
                 <div id="wrapper" class="max-w-xl px-4 py-4 mx-auto">
+                    <p>Jurusan Akuntansi (ACC)</p>
                     <div class="sm:grid sm:h-44 sm:grid-flow-row sm:gap-4 sm:grid-cols-4">
                         <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
                             <div>
@@ -248,6 +252,7 @@
                 </div>
 
                 <div id="wrapper" class="max-w-xl px-4 py-4 mx-auto">
+                    <p>Jurusan Ilmu Komunikasi (FIKOM)</p>
                     <div class="sm:grid sm:h-44 sm:grid-flow-row sm:gap-4 sm:grid-cols-4">
                         <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
                             <div>
@@ -280,6 +285,7 @@
                 </div>
 
                 <div id="wrapper" class="max-w-xl px-4 py-4 mx-auto">
+                    <p>Jurusan Pariwisata (HTB)</p>
                     <div class="sm:grid sm:h-44 sm:grid-flow-row sm:gap-4 sm:grid-cols-4">
                         <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
                             <div>
@@ -312,6 +318,7 @@
                 </div>
 
                 <div id="wrapper" class="max-w-xl px-4 py-4 mx-auto">
+                    <p>Jurusan Kuliner (CBZ)</p>
                     <div class="sm:grid sm:h-44 sm:grid-flow-row sm:gap-4 sm:grid-cols-4">
                         <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
                             <div>
@@ -344,6 +351,7 @@
                 </div>
 
                 <div id="wrapper" class="max-w-xl px-4 py-4 mx-auto">
+                    <p>Jurusan Psikologi (PSY)</p>
                     <div class="sm:grid sm:h-44 sm:grid-flow-row sm:gap-4 sm:grid-cols-4">
                         <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
                             <div>
@@ -376,6 +384,7 @@
                 </div>
 
                 <div id="wrapper" class="max-w-xl px-4 py-4 mx-auto">
+                    <p>Jurusan Informatika (IMT)</p>
                     <div class="sm:grid sm:h-44 sm:grid-flow-row sm:gap-4 sm:grid-cols-4">
                         <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
                             <div>
@@ -408,6 +417,7 @@
                 </div>
 
                 <div id="wrapper" class="max-w-xl px-4 py-4 mx-auto">
+                    <p>Jurusan Sistem Informasi (ISB)</p>
                     <div class="sm:grid sm:h-44 sm:grid-flow-row sm:gap-4 sm:grid-cols-4">
                         <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
                             <div>
@@ -440,6 +450,7 @@
                 </div>
 
                 <div id="wrapper" class="max-w-xl px-4 py-4 mx-auto">
+                    <p>Jurusan Desain Komunikasi (VCD)</p>
                     <div class="sm:grid sm:h-44 sm:grid-flow-row sm:gap-4 sm:grid-cols-4">
                         <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
                             <div>
@@ -472,6 +483,7 @@
                 </div>
 
                 <div id="wrapper" class="max-w-xl px-4 py-4 mx-auto">
+                    <p>Jurusan Arsitektur (INA)</p>
                     <div class="sm:grid sm:h-44 sm:grid-flow-row sm:gap-4 sm:grid-cols-4">
                         <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
                             <div>
@@ -504,6 +516,7 @@
                 </div>
 
                 <div id="wrapper" class="max-w-xl px-4 py-4 mx-auto">
+                    <p>Jurusan Desain Produk (FPD)</p>
                     <div class="sm:grid sm:h-44 sm:grid-flow-row sm:gap-4 sm:grid-cols-4">
                         <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
                             <div>
@@ -536,6 +549,7 @@
                 </div>
 
                 <div id="wrapper" class="max-w-xl px-4 py-4 mx-auto">
+                    <p>Jurusan Kedokteran (MED)</p>
                     <div class="sm:grid sm:h-44 sm:grid-flow-row sm:gap-4 sm:grid-cols-4">
                         <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
                             <div>
@@ -568,6 +582,7 @@
                 </div>
 
                 <div id="wrapper" class="max-w-xl px-4 py-4 mx-auto">
+                    <p>Jurusan Teknologi Pangan (FTP)</p>
                     <div class="sm:grid sm:h-44 sm:grid-flow-row sm:gap-4 sm:grid-cols-4">
                         <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
                             <div>
@@ -600,6 +615,7 @@
                 </div>
 
                 <div id="wrapper" class="max-w-xl px-4 py-4 mx-auto">
+                    <p>Jurusan S2 Manajemen (MEM)</p>
                     <div class="sm:grid sm:h-44 sm:grid-flow-row sm:gap-4 sm:grid-cols-4">
                         <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
                             <div>
@@ -632,6 +648,7 @@
                 </div>
 
                 <div id="wrapper" class="max-w-xl px-4 py-4 mx-auto">
+                    <p>Dosen yang tidak ber-NIDN / Mahasiswa</p>
                     <div class="sm:grid sm:h-44 sm:grid-flow-row sm:gap-4 sm:grid-cols-4">
                         <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
                             <div>
