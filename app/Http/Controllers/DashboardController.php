@@ -35,6 +35,22 @@ class DashboardController extends Controller
         $ppyear = $pdyear = $pdepartmentsyear = $pfyear = $pgyear = [];
         $dpyear = $ddyear = $ddepartmentsyear = $dfyear = $dgyear = [];
         $bpyear = $bdyear = $bdepartmentsyear = $bfyear = $bgyear = [];
+        $cibmnext = $cbminext = $caccnext = $ccomnext = $chtbnext = $ccbznext = $cpsynext = $cimtnext = $cisbnext = $cvcdnext = $cinanext = $cfpdnext = $cmednext = $cftpnext = $cmemnext = $cdllnext = 0;
+        $pibmnext = $pbminext = $paccnext = $pcomnext = $phtbnext = $pcbznext = $ppsynext = $pimtnext = $pisbnext = $pvcdnext = $pinanext = $pfpdnext = $pmednext = $pftpnext = $pmemnext = $pdllnext = 0;
+        $dibmnext = $dbminext = $daccnext = $dcomnext = $dhtbnext = $dcbznext = $dpsynext = $dimtnext = $disbnext = $dvcdnext = $dinanext = $dfpdnext = $dmednext = $dftpnext = $dmemnext = $ddllnext = 0;
+        $bibmnext = $bbminext = $baccnext = $bcomnext = $bhtbnext = $bcbznext = $bpsynext = $bimtnext = $bisbnext = $bvcdnext = $binanext = $bfpdnext = $bmednext = $bftpnext = $bmemnext = $bdllnext = 0;
+        $cpnext = $cdnext = $cdepartmentsnext = $cfnext = $cgnext = [];
+        $ppnext = $pdnext = $pdepartmentsnext = $pfnext = $pgnext = [];
+        $dpnext = $ddnext = $ddepartmentsnext = $dfnext = $dgnext = [];
+        $bpnext = $bdnext = $bdepartmentsnext = $bfnext = $bgnext = [];
+        $cibmprev = $cbmiprev = $caccprev = $ccomprev = $chtbprev = $ccbzprev = $cpsyprev = $cimtprev = $cisbprev = $cvcdprev = $cinaprev = $cfpdprev = $cmedprev = $cftpprev = $cmemprev = $cdllprev = 0;
+        $pibmprev = $pbmiprev = $paccprev = $pcomprev = $phtbprev = $pcbzprev = $ppsyprev = $pimtprev = $pisbprev = $pvcdprev = $pinaprev = $pfpdprev = $pmedprev = $pftpprev = $pmemprev = $pdllprev = 0;
+        $dibmprev = $dbmiprev = $daccprev = $dcomprev = $dhtbprev = $dcbzprev = $dpsyprev = $dimtprev = $disbprev = $dvcdprev = $dinaprev = $dfpdprev = $dmedprev = $dftpprev = $dmemprev = $ddllprev = 0;
+        $bibmprev = $bbmiprev = $baccprev = $bcomprev = $bhtbprev = $bcbzprev = $bpsyprev = $bimtprev = $bisbprev = $bvcdprev = $binaprev = $bfpdprev = $bmedprev = $bftpprev = $bmemprev = $bdllprev = 0;
+        $cpprev = $cdprev = $cdepartmentsprev = $cfprev = $cgprev = [];
+        $ppprev = $pdprev = $pdepartmentsprev = $pfprev = $pgprev = [];
+        $dpprev = $ddprev = $ddepartmentsprev = $dfprev = $dgprev = [];
+        $bpprev = $bdprev = $bdepartmentsprev = $bfprev = $bgprev = [];
 
         $copyright = Copyright::all();
         $patent = Patent::all();
