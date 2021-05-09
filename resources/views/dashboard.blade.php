@@ -23,7 +23,7 @@
 
                 @if($year != null)
                     <div id="wrapper" class="max-w-xl px-4 py-4 mx-auto">
-                        <p>Total Keseluruhan di Tahun Kabisat {{ $year }}</p>
+                        <p>Semua Jurusan di Tahun Kabisat {{ $year }}</p>
                         <div class="sm:grid sm:h-44 sm:grid-flow-row sm:gap-4 sm:grid-cols-4">
                             <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
                                 <div>
@@ -584,7 +584,7 @@
                     </div>
 
                     <div id="wrapper" class="max-w-xl px-4 py-4 mx-auto">
-                        <p>Total Keseluruhan di Tahun Akademik {{ $year }} - {{ $yearnext }}</p>
+                        <p>Semua Jurusan di Tahun Akademik {{ $year }} - {{ $yearnext }}</p>
                         <div class="sm:grid sm:h-44 sm:grid-flow-row sm:gap-4 sm:grid-cols-4">
                             <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
                                 <div>
@@ -617,7 +617,7 @@
                     </div>
 
                     <div id="wrapper" class="max-w-xl px-4 py-4 mx-auto">
-                        <p>Total Keseluruhan di Tahun Akademik {{ $yearprev }} - {{ $year }}</p>
+                        <p>Semua Jurusan di Tahun Akademik {{ $yearprev }} - {{ $year }}</p>
                         <div class="sm:grid sm:h-44 sm:grid-flow-row sm:gap-4 sm:grid-cols-4">
                             <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
                                 <div>
@@ -651,7 +651,7 @@
                 @endif
 
                 <div id="wrapper" class="max-w-xl px-4 py-4 mx-auto">
-                    <p>Total Keseluruhan</p>
+                    <p>Semua Jurusan</p>
                     <div class="sm:grid sm:h-44 sm:grid-flow-row sm:gap-4 sm:grid-cols-4">
                         <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
                             <div>
