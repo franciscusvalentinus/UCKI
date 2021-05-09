@@ -56,528 +56,528 @@
                     </div>
 
                     <div id="wrapper" class="max-w-xl px-4 py-4 mx-auto">
-                        <p>Jurusan Manajemen (IBM-RC)</p>
+                        <p>Jurusan Manajemen (IBM-RC) di Tahun Kabisat {{ $year }}</p>
                         <div class="sm:grid sm:h-44 sm:grid-flow-row sm:gap-4 sm:grid-cols-4">
                             <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
                                 <div>
                                     <p class="text-3xl font-semibold text-center text-gray-800">{{ $cibmyear }}</p>
-                                    <p class="text-lg text-center text-gray-500">Hak Cipta IBM-RC</p>
+                                    <p class="text-lg text-center text-gray-500">Hak Cipta IBM-RC di tahun {{ $year }}</p>
                                 </div>
                             </div>
 
                             <div id="jh-stats-negative" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
                                 <div>
                                     <p class="text-3xl font-semibold text-center text-gray-800">{{ $pibmyear }}</p>
-                                    <p class="text-lg text-center text-gray-500">Paten IBM-RC</p>
+                                    <p class="text-lg text-center text-gray-500">Paten IBM-RC di tahun {{ $year }}</p>
                                 </div>
                             </div>
 
                             <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
                                 <div>
                                     <p class="text-3xl font-semibold text-center text-gray-800">{{ $dibmyear }}</p>
-                                    <p class="text-lg text-center text-gray-500">Desain Industri IBM-RC</p>
+                                    <p class="text-lg text-center text-gray-500">Desain Industri IBM-RC di tahun {{ $year }}</p>
                                 </div>
                             </div>
 
                             <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
                                 <div>
                                     <p class="text-3xl font-semibold text-center text-gray-800">{{ $bibmyear }}</p>
-                                    <p class="text-lg text-center text-gray-500">Merek IBM-RC</p>
+                                    <p class="text-lg text-center text-gray-500">Merek IBM-RC di tahun {{ $year }}</p>
                                 </div>
                             </div>
                         </div>
                     </div>
 
                     <div id="wrapper" class="max-w-xl px-4 py-4 mx-auto">
-                        <p>Jurusan Manajemen (IBM-IC)</p>
+                        <p>Jurusan Manajemen (IBM-IC) di Tahun Kabisat {{ $year }}</p>
                         <div class="sm:grid sm:h-44 sm:grid-flow-row sm:gap-4 sm:grid-cols-4">
                             <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
                                 <div>
                                     <p class="text-3xl font-semibold text-center text-gray-800">{{ $cbmiyear }}</p>
-                                    <p class="text-lg text-center text-gray-500">Hak Cipta IBM-IC</p>
+                                    <p class="text-lg text-center text-gray-500">Hak Cipta IBM-IC di tahun {{ $year }}</p>
                                 </div>
                             </div>
 
                             <div id="jh-stats-negative" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
                                 <div>
                                     <p class="text-3xl font-semibold text-center text-gray-800">{{ $pbmiyear }}</p>
-                                    <p class="text-lg text-center text-gray-500">Paten IBM-IC</p>
+                                    <p class="text-lg text-center text-gray-500">Paten IBM-IC di tahun {{ $year }}</p>
                                 </div>
                             </div>
 
                             <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
                                 <div>
                                     <p class="text-3xl font-semibold text-center text-gray-800">{{ $dbmiyear }}</p>
-                                    <p class="text-lg text-center text-gray-500">Desain Industri IBM-IC</p>
+                                    <p class="text-lg text-center text-gray-500">Desain Industri IBM-IC di tahun {{ $year }}</p>
                                 </div>
                             </div>
 
                             <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
                                 <div>
                                     <p class="text-3xl font-semibold text-center text-gray-800">{{ $bbmiyear }}</p>
-                                    <p class="text-lg text-center text-gray-500">Merek IBM-IC</p>
+                                    <p class="text-lg text-center text-gray-500">Merek IBM-IC di tahun {{ $year }}</p>
                                 </div>
                             </div>
                         </div>
                     </div>
 
                     <div id="wrapper" class="max-w-xl px-4 py-4 mx-auto">
-                        <p>Jurusan Akuntansi (ACC)</p>
+                        <p>Jurusan Akuntansi (ACC) di Tahun Kabisat {{ $year }}</p>
                         <div class="sm:grid sm:h-44 sm:grid-flow-row sm:gap-4 sm:grid-cols-4">
                             <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
                                 <div>
                                     <p class="text-3xl font-semibold text-center text-gray-800">{{ $caccyear }}</p>
-                                    <p class="text-lg text-center text-gray-500">Hak Cipta ACC</p>
+                                    <p class="text-lg text-center text-gray-500">Hak Cipta ACC di tahun {{ $year }}</p>
                                 </div>
                             </div>
 
                             <div id="jh-stats-negative" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
                                 <div>
                                     <p class="text-3xl font-semibold text-center text-gray-800">{{ $paccyear }}</p>
-                                    <p class="text-lg text-center text-gray-500">Paten ACC</p>
+                                    <p class="text-lg text-center text-gray-500">Paten ACC di tahun {{ $year }}</p>
                                 </div>
                             </div>
 
                             <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
                                 <div>
                                     <p class="text-3xl font-semibold text-center text-gray-800">{{ $daccyear }}</p>
-                                    <p class="text-lg text-center text-gray-500">Desain Industri ACC</p>
+                                    <p class="text-lg text-center text-gray-500">Desain Industri ACC di tahun {{ $year }}</p>
                                 </div>
                             </div>
 
                             <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
                                 <div>
                                     <p class="text-3xl font-semibold text-center text-gray-800">{{ $baccyear }}</p>
-                                    <p class="text-lg text-center text-gray-500">Merek ACC</p>
+                                    <p class="text-lg text-center text-gray-500">Merek ACC di tahun {{ $year }}</p>
                                 </div>
                             </div>
                         </div>
                     </div>
 
                     <div id="wrapper" class="max-w-xl px-4 py-4 mx-auto">
-                        <p>Jurusan Ilmu Komunikasi (FIKOM)</p>
+                        <p>Jurusan Ilmu Komunikasi (FIKOM) di Tahun Kabisat {{ $year }}</p>
                         <div class="sm:grid sm:h-44 sm:grid-flow-row sm:gap-4 sm:grid-cols-4">
                             <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
                                 <div>
                                     <p class="text-3xl font-semibold text-center text-gray-800">{{ $ccomyear }}</p>
-                                    <p class="text-lg text-center text-gray-500">Hak Cipta FIKOM</p>
+                                    <p class="text-lg text-center text-gray-500">Hak Cipta FIKOM di tahun {{ $year }}</p>
                                 </div>
                             </div>
 
                             <div id="jh-stats-negative" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
                                 <div>
                                     <p class="text-3xl font-semibold text-center text-gray-800">{{ $pcomyear }}</p>
-                                    <p class="text-lg text-center text-gray-500">Paten FIKOM</p>
+                                    <p class="text-lg text-center text-gray-500">Paten FIKOM di tahun {{ $year }}</p>
                                 </div>
                             </div>
 
                             <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
                                 <div>
                                     <p class="text-3xl font-semibold text-center text-gray-800">{{ $dcomyear }}</p>
-                                    <p class="text-lg text-center text-gray-500">Desain Industri FIKOM</p>
+                                    <p class="text-lg text-center text-gray-500">Desain Industri FIKOM di tahun {{ $year }}</p>
                                 </div>
                             </div>
 
                             <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
                                 <div>
                                     <p class="text-3xl font-semibold text-center text-gray-800">{{ $bcomyear }}</p>
-                                    <p class="text-lg text-center text-gray-500">Merek FIKOM</p>
+                                    <p class="text-lg text-center text-gray-500">Merek FIKOM di tahun {{ $year }}</p>
                                 </div>
                             </div>
                         </div>
                     </div>
 
                     <div id="wrapper" class="max-w-xl px-4 py-4 mx-auto">
-                        <p>Jurusan Pariwisata (HTB)</p>
+                        <p>Jurusan Pariwisata (HTB) di Tahun Kabisat {{ $year }}</p>
                         <div class="sm:grid sm:h-44 sm:grid-flow-row sm:gap-4 sm:grid-cols-4">
                             <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
                                 <div>
                                     <p class="text-3xl font-semibold text-center text-gray-800">{{ $chtbyear }}</p>
-                                    <p class="text-lg text-center text-gray-500">Hak Cipta HTB</p>
+                                    <p class="text-lg text-center text-gray-500">Hak Cipta HTB di tahun {{ $year }}</p>
                                 </div>
                             </div>
 
                             <div id="jh-stats-negative" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
                                 <div>
                                     <p class="text-3xl font-semibold text-center text-gray-800">{{ $phtbyear }}</p>
-                                    <p class="text-lg text-center text-gray-500">Paten HTB</p>
+                                    <p class="text-lg text-center text-gray-500">Paten HTB di tahun {{ $year }}</p>
                                 </div>
                             </div>
 
                             <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
                                 <div>
                                     <p class="text-3xl font-semibold text-center text-gray-800">{{ $dhtbyear }}</p>
-                                    <p class="text-lg text-center text-gray-500">Desain Industri HTB</p>
+                                    <p class="text-lg text-center text-gray-500">Desain Industri HTB di tahun {{ $year }}</p>
                                 </div>
                             </div>
 
                             <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
                                 <div>
                                     <p class="text-3xl font-semibold text-center text-gray-800">{{ $bhtbyear }}</p>
-                                    <p class="text-lg text-center text-gray-500">Merek HTB</p>
+                                    <p class="text-lg text-center text-gray-500">Merek HTB di tahun {{ $year }}</p>
                                 </div>
                             </div>
                         </div>
                     </div>
 
                     <div id="wrapper" class="max-w-xl px-4 py-4 mx-auto">
-                        <p>Jurusan Kuliner (CBZ)</p>
+                        <p>Jurusan Kuliner (CBZ) di Tahun Kabisat {{ $year }}</p>
                         <div class="sm:grid sm:h-44 sm:grid-flow-row sm:gap-4 sm:grid-cols-4">
                             <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
                                 <div>
                                     <p class="text-3xl font-semibold text-center text-gray-800">{{ $ccbzyear }}</p>
-                                    <p class="text-lg text-center text-gray-500">Hak Cipta CBZ</p>
+                                    <p class="text-lg text-center text-gray-500">Hak Cipta CBZ di tahun {{ $year }}</p>
                                 </div>
                             </div>
 
                             <div id="jh-stats-negative" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
                                 <div>
                                     <p class="text-3xl font-semibold text-center text-gray-800">{{ $pcbzyear }}</p>
-                                    <p class="text-lg text-center text-gray-500">Paten CBZ</p>
+                                    <p class="text-lg text-center text-gray-500">Paten CBZ di tahun {{ $year }}</p>
                                 </div>
                             </div>
 
                             <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
                                 <div>
                                     <p class="text-3xl font-semibold text-center text-gray-800">{{ $dcbzyear }}</p>
-                                    <p class="text-lg text-center text-gray-500">Desain Industri CBZ</p>
+                                    <p class="text-lg text-center text-gray-500">Desain Industri CBZ di tahun {{ $year }}</p>
                                 </div>
                             </div>
 
                             <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
                                 <div>
                                     <p class="text-3xl font-semibold text-center text-gray-800">{{ $bcbzyear }}</p>
-                                    <p class="text-lg text-center text-gray-500">Merek CBZ</p>
+                                    <p class="text-lg text-center text-gray-500">Merek CBZ di tahun {{ $year }}</p>
                                 </div>
                             </div>
                         </div>
                     </div>
 
                     <div id="wrapper" class="max-w-xl px-4 py-4 mx-auto">
-                        <p>Jurusan Psikologi (PSY)</p>
+                        <p>Jurusan Psikologi (PSY) di Tahun Kabisat {{ $year }}</p>
                         <div class="sm:grid sm:h-44 sm:grid-flow-row sm:gap-4 sm:grid-cols-4">
                             <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
                                 <div>
                                     <p class="text-3xl font-semibold text-center text-gray-800">{{ $cpsyyear }}</p>
-                                    <p class="text-lg text-center text-gray-500">Hak Cipta PSY</p>
+                                    <p class="text-lg text-center text-gray-500">Hak Cipta PSY di tahun {{ $year }}</p>
                                 </div>
                             </div>
 
                             <div id="jh-stats-negative" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
                                 <div>
                                     <p class="text-3xl font-semibold text-center text-gray-800">{{ $ppsyyear }}</p>
-                                    <p class="text-lg text-center text-gray-500">Paten PSY</p>
+                                    <p class="text-lg text-center text-gray-500">Paten PSY di tahun {{ $year }}</p>
                                 </div>
                             </div>
 
                             <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
                                 <div>
                                     <p class="text-3xl font-semibold text-center text-gray-800">{{ $dpsyyear }}</p>
-                                    <p class="text-lg text-center text-gray-500">Desain Industri PSY</p>
+                                    <p class="text-lg text-center text-gray-500">Desain Industri PSY di tahun {{ $year }}</p>
                                 </div>
                             </div>
 
                             <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
                                 <div>
                                     <p class="text-3xl font-semibold text-center text-gray-800">{{ $bpsyyear }}</p>
-                                    <p class="text-lg text-center text-gray-500">Merek PSY</p>
+                                    <p class="text-lg text-center text-gray-500">Merek PSY di tahun {{ $year }}</p>
                                 </div>
                             </div>
                         </div>
                     </div>
 
                     <div id="wrapper" class="max-w-xl px-4 py-4 mx-auto">
-                        <p>Jurusan Informatika (IMT)</p>
+                        <p>Jurusan Informatika (IMT) di Tahun Kabisat {{ $year }}</p>
                         <div class="sm:grid sm:h-44 sm:grid-flow-row sm:gap-4 sm:grid-cols-4">
                             <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
                                 <div>
                                     <p class="text-3xl font-semibold text-center text-gray-800">{{ $cimtyear }}</p>
-                                    <p class="text-lg text-center text-gray-500">Hak Cipta IMT</p>
+                                    <p class="text-lg text-center text-gray-500">Hak Cipta IMT di tahun {{ $year }}</p>
                                 </div>
                             </div>
 
                             <div id="jh-stats-negative" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
                                 <div>
                                     <p class="text-3xl font-semibold text-center text-gray-800">{{ $pimtyear }}</p>
-                                    <p class="text-lg text-center text-gray-500">Paten IMT</p>
+                                    <p class="text-lg text-center text-gray-500">Paten IMT di tahun {{ $year }}</p>
                                 </div>
                             </div>
 
                             <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
                                 <div>
                                     <p class="text-3xl font-semibold text-center text-gray-800">{{ $dimtyear }}</p>
-                                    <p class="text-lg text-center text-gray-500">Desain Industri IMT</p>
+                                    <p class="text-lg text-center text-gray-500">Desain Industri IMT di tahun {{ $year }}</p>
                                 </div>
                             </div>
 
                             <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
                                 <div>
                                     <p class="text-3xl font-semibold text-center text-gray-800">{{ $bimtyear }}</p>
-                                    <p class="text-lg text-center text-gray-500">Merek IMT</p>
+                                    <p class="text-lg text-center text-gray-500">Merek IMT di tahun {{ $year }}</p>
                                 </div>
                             </div>
                         </div>
                     </div>
 
                     <div id="wrapper" class="max-w-xl px-4 py-4 mx-auto">
-                        <p>Jurusan Sistem Informasi (ISB)</p>
+                        <p>Jurusan Sistem Informasi (ISB) di Tahun Kabisat {{ $year }}</p>
                         <div class="sm:grid sm:h-44 sm:grid-flow-row sm:gap-4 sm:grid-cols-4">
                             <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
                                 <div>
                                     <p class="text-3xl font-semibold text-center text-gray-800">{{ $cisbyear }}</p>
-                                    <p class="text-lg text-center text-gray-500">Hak Cipta ISB</p>
+                                    <p class="text-lg text-center text-gray-500">Hak Cipta ISB di tahun {{ $year }}</p>
                                 </div>
                             </div>
 
                             <div id="jh-stats-negative" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
                                 <div>
                                     <p class="text-3xl font-semibold text-center text-gray-800">{{ $pisbyear }}</p>
-                                    <p class="text-lg text-center text-gray-500">Paten ISB</p>
+                                    <p class="text-lg text-center text-gray-500">Paten ISB di tahun {{ $year }}</p>
                                 </div>
                             </div>
 
                             <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
                                 <div>
                                     <p class="text-3xl font-semibold text-center text-gray-800">{{ $disbyear }}</p>
-                                    <p class="text-lg text-center text-gray-500">Desain Industri ISB</p>
+                                    <p class="text-lg text-center text-gray-500">Desain Industri ISB di tahun {{ $year }}</p>
                                 </div>
                             </div>
 
                             <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
                                 <div>
                                     <p class="text-3xl font-semibold text-center text-gray-800">{{ $bisbyear }}</p>
-                                    <p class="text-lg text-center text-gray-500">Merek ISB</p>
+                                    <p class="text-lg text-center text-gray-500">Merek ISB di tahun {{ $year }}</p>
                                 </div>
                             </div>
                         </div>
                     </div>
 
                     <div id="wrapper" class="max-w-xl px-4 py-4 mx-auto">
-                        <p>Jurusan Desain Komunikasi (VCD)</p>
+                        <p>Jurusan Desain Komunikasi (VCD) di Tahun Kabisat {{ $year }}</p>
                         <div class="sm:grid sm:h-44 sm:grid-flow-row sm:gap-4 sm:grid-cols-4">
                             <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
                                 <div>
                                     <p class="text-3xl font-semibold text-center text-gray-800">{{ $cvcdyear }}</p>
-                                    <p class="text-lg text-center text-gray-500">Hak Cipta VCD</p>
+                                    <p class="text-lg text-center text-gray-500">Hak Cipta VCD di tahun {{ $year }}</p>
                                 </div>
                             </div>
 
                             <div id="jh-stats-negative" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
                                 <div>
                                     <p class="text-3xl font-semibold text-center text-gray-800">{{ $pvcdyear }}</p>
-                                    <p class="text-lg text-center text-gray-500">Paten VCD</p>
+                                    <p class="text-lg text-center text-gray-500">Paten VCD di tahun {{ $year }}</p>
                                 </div>
                             </div>
 
                             <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
                                 <div>
                                     <p class="text-3xl font-semibold text-center text-gray-800">{{ $dvcdyear }}</p>
-                                    <p class="text-lg text-center text-gray-500">Desain Industri VCD</p>
+                                    <p class="text-lg text-center text-gray-500">Desain Industri VCD di tahun {{ $year }}</p>
                                 </div>
                             </div>
 
                             <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
                                 <div>
                                     <p class="text-3xl font-semibold text-center text-gray-800">{{ $bvcdyear }}</p>
-                                    <p class="text-lg text-center text-gray-500">Merek VCD</p>
+                                    <p class="text-lg text-center text-gray-500">Merek VCD di tahun {{ $year }}</p>
                                 </div>
                             </div>
                         </div>
                     </div>
 
                     <div id="wrapper" class="max-w-xl px-4 py-4 mx-auto">
-                        <p>Jurusan Arsitektur (INA)</p>
+                        <p>Jurusan Arsitektur (INA) di Tahun Kabisat {{ $year }}</p>
                         <div class="sm:grid sm:h-44 sm:grid-flow-row sm:gap-4 sm:grid-cols-4">
                             <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
                                 <div>
                                     <p class="text-3xl font-semibold text-center text-gray-800">{{ $cinayear }}</p>
-                                    <p class="text-lg text-center text-gray-500">Hak Cipta INA</p>
+                                    <p class="text-lg text-center text-gray-500">Hak Cipta INA di tahun {{ $year }}</p>
                                 </div>
                             </div>
 
                             <div id="jh-stats-negative" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
                                 <div>
                                     <p class="text-3xl font-semibold text-center text-gray-800">{{ $pinayear }}</p>
-                                    <p class="text-lg text-center text-gray-500">Paten INA</p>
+                                    <p class="text-lg text-center text-gray-500">Paten INA di tahun {{ $year }}</p>
                                 </div>
                             </div>
 
                             <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
                                 <div>
                                     <p class="text-3xl font-semibold text-center text-gray-800">{{ $dinayear }}</p>
-                                    <p class="text-lg text-center text-gray-500">Desain Industri INA</p>
+                                    <p class="text-lg text-center text-gray-500">Desain Industri INA di tahun {{ $year }}</p>
                                 </div>
                             </div>
 
                             <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
                                 <div>
                                     <p class="text-3xl font-semibold text-center text-gray-800">{{ $binayear }}</p>
-                                    <p class="text-lg text-center text-gray-500">Merek INA</p>
+                                    <p class="text-lg text-center text-gray-500">Merek INA di tahun {{ $year }}</p>
                                 </div>
                             </div>
                         </div>
                     </div>
 
                     <div id="wrapper" class="max-w-xl px-4 py-4 mx-auto">
-                        <p>Jurusan Desain Produk (FPD)</p>
+                        <p>Jurusan Desain Produk (FPD) di Tahun Kabisat {{ $year }}</p>
                         <div class="sm:grid sm:h-44 sm:grid-flow-row sm:gap-4 sm:grid-cols-4">
                             <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
                                 <div>
                                     <p class="text-3xl font-semibold text-center text-gray-800">{{ $cfpdyear }}</p>
-                                    <p class="text-lg text-center text-gray-500">Hak Cipta FPD</p>
+                                    <p class="text-lg text-center text-gray-500">Hak Cipta FPD di tahun {{ $year }}</p>
                                 </div>
                             </div>
 
                             <div id="jh-stats-negative" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
                                 <div>
                                     <p class="text-3xl font-semibold text-center text-gray-800">{{ $pfpdyear }}</p>
-                                    <p class="text-lg text-center text-gray-500">Paten FPD</p>
+                                    <p class="text-lg text-center text-gray-500">Paten FPD di tahun {{ $year }}</p>
                                 </div>
                             </div>
 
                             <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
                                 <div>
                                     <p class="text-3xl font-semibold text-center text-gray-800">{{ $dfpdyear }}</p>
-                                    <p class="text-lg text-center text-gray-500">Desain Industri FPD</p>
+                                    <p class="text-lg text-center text-gray-500">Desain Industri FPD di tahun {{ $year }}</p>
                                 </div>
                             </div>
 
                             <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
                                 <div>
                                     <p class="text-3xl font-semibold text-center text-gray-800">{{ $bfpdyear }}</p>
-                                    <p class="text-lg text-center text-gray-500">Merek FPD</p>
+                                    <p class="text-lg text-center text-gray-500">Merek FPD di tahun {{ $year }}</p>
                                 </div>
                             </div>
                         </div>
                     </div>
 
                     <div id="wrapper" class="max-w-xl px-4 py-4 mx-auto">
-                        <p>Jurusan Kedokteran (MED)</p>
+                        <p>Jurusan Kedokteran (MED) di Tahun Kabisat {{ $year }}</p>
                         <div class="sm:grid sm:h-44 sm:grid-flow-row sm:gap-4 sm:grid-cols-4">
                             <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
                                 <div>
                                     <p class="text-3xl font-semibold text-center text-gray-800">{{ $cmedyear }}</p>
-                                    <p class="text-lg text-center text-gray-500">Hak Cipta MED</p>
+                                    <p class="text-lg text-center text-gray-500">Hak Cipta MED di tahun {{ $year }}</p>
                                 </div>
                             </div>
 
                             <div id="jh-stats-negative" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
                                 <div>
                                     <p class="text-3xl font-semibold text-center text-gray-800">{{ $pmedyear }}</p>
-                                    <p class="text-lg text-center text-gray-500">Paten MED</p>
+                                    <p class="text-lg text-center text-gray-500">Paten MED di tahun {{ $year }}</p>
                                 </div>
                             </div>
 
                             <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
                                 <div>
                                     <p class="text-3xl font-semibold text-center text-gray-800">{{ $dmedyear }}</p>
-                                    <p class="text-lg text-center text-gray-500">Desain Industri MED</p>
+                                    <p class="text-lg text-center text-gray-500">Desain Industri MED di tahun {{ $year }}</p>
                                 </div>
                             </div>
 
                             <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
                                 <div>
                                     <p class="text-3xl font-semibold text-center text-gray-800">{{ $bmedyear }}</p>
-                                    <p class="text-lg text-center text-gray-500">Merek MED</p>
+                                    <p class="text-lg text-center text-gray-500">Merek MED di tahun {{ $year }}</p>
                                 </div>
                             </div>
                         </div>
                     </div>
 
                     <div id="wrapper" class="max-w-xl px-4 py-4 mx-auto">
-                        <p>Jurusan Teknologi Pangan (FTP)</p>
+                        <p>Jurusan Teknologi Pangan (FTP) di Tahun Kabisat {{ $year }}</p>
                         <div class="sm:grid sm:h-44 sm:grid-flow-row sm:gap-4 sm:grid-cols-4">
                             <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
                                 <div>
                                     <p class="text-3xl font-semibold text-center text-gray-800">{{ $cftpyear }}</p>
-                                    <p class="text-lg text-center text-gray-500">Hak Cipta FTP</p>
+                                    <p class="text-lg text-center text-gray-500">Hak Cipta FTP di tahun {{ $year }}</p>
                                 </div>
                             </div>
 
                             <div id="jh-stats-negative" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
                                 <div>
                                     <p class="text-3xl font-semibold text-center text-gray-800">{{ $pftpyear }}</p>
-                                    <p class="text-lg text-center text-gray-500">Paten FTP</p>
+                                    <p class="text-lg text-center text-gray-500">Paten FTP di tahun {{ $year }}</p>
                                 </div>
                             </div>
 
                             <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
                                 <div>
                                     <p class="text-3xl font-semibold text-center text-gray-800">{{ $dftpyear }}</p>
-                                    <p class="text-lg text-center text-gray-500">Desain Industri FTP</p>
+                                    <p class="text-lg text-center text-gray-500">Desain Industri FTP di tahun {{ $year }}</p>
                                 </div>
                             </div>
 
                             <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
                                 <div>
                                     <p class="text-3xl font-semibold text-center text-gray-800">{{ $bftpyear }}</p>
-                                    <p class="text-lg text-center text-gray-500">Merek FTP</p>
+                                    <p class="text-lg text-center text-gray-500">Merek FTP di tahun {{ $year }}</p>
                                 </div>
                             </div>
                         </div>
                     </div>
 
                     <div id="wrapper" class="max-w-xl px-4 py-4 mx-auto">
-                        <p>Jurusan S2 Manajemen (MEM)</p>
+                        <p>Jurusan S2 Manajemen (MEM) di Tahun Kabisat {{ $year }}</p>
                         <div class="sm:grid sm:h-44 sm:grid-flow-row sm:gap-4 sm:grid-cols-4">
                             <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
                                 <div>
                                     <p class="text-3xl font-semibold text-center text-gray-800">{{ $cmemyear }}</p>
-                                    <p class="text-lg text-center text-gray-500">Hak Cipta S2 Manajemen</p>
+                                    <p class="text-lg text-center text-gray-500">Hak Cipta S2 Manajemen di tahun {{ $year }}</p>
                                 </div>
                             </div>
 
                             <div id="jh-stats-negative" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
                                 <div>
                                     <p class="text-3xl font-semibold text-center text-gray-800">{{ $pmemyear }}</p>
-                                    <p class="text-lg text-center text-gray-500">Paten S2 Manajemen</p>
+                                    <p class="text-lg text-center text-gray-500">Paten S2 Manajemen di tahun {{ $year }}</p>
                                 </div>
                             </div>
 
                             <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
                                 <div>
                                     <p class="text-3xl font-semibold text-center text-gray-800">{{ $dmemyear }}</p>
-                                    <p class="text-lg text-center text-gray-500">Desain Industri S2 Manajemen</p>
+                                    <p class="text-lg text-center text-gray-500">Desain Industri S2 Manajemen di tahun {{ $year }}</p>
                                 </div>
                             </div>
 
                             <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
                                 <div>
                                     <p class="text-3xl font-semibold text-center text-gray-800">{{ $bmemyear }}</p>
-                                    <p class="text-lg text-center text-gray-500">Merek S2 Manajemen</p>
+                                    <p class="text-lg text-center text-gray-500">Merek S2 Manajemen di tahun {{ $year }}</p>
                                 </div>
                             </div>
                         </div>
                     </div>
 
                     <div id="wrapper" class="max-w-xl px-4 py-4 mx-auto">
-                        <p>Dosen yang tidak ber-NIDN / Mahasiswa</p>
+                        <p>Dosen yang tidak ber-NIDN / Mahasiswa di Tahun Kabisat {{ $year }}</p>
                         <div class="sm:grid sm:h-44 sm:grid-flow-row sm:gap-4 sm:grid-cols-4">
                             <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
                                 <div>
                                     <p class="text-3xl font-semibold text-center text-gray-800">{{ $cdllyear }}</p>
-                                    <p class="text-lg text-center text-gray-500">Hak Cipta Lain-lain</p>
+                                    <p class="text-lg text-center text-gray-500">Hak Cipta Lain-lain di tahun {{ $year }}</p>
                                 </div>
                             </div>
 
                             <div id="jh-stats-negative" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
                                 <div>
                                     <p class="text-3xl font-semibold text-center text-gray-800">{{ $pdllyear }}</p>
-                                    <p class="text-lg text-center text-gray-500">Paten Lain-lain</p>
+                                    <p class="text-lg text-center text-gray-500">Paten Lain-lain di tahun {{ $year }}</p>
                                 </div>
                             </div>
 
                             <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
                                 <div>
                                     <p class="text-3xl font-semibold text-center text-gray-800">{{ $ddllyear }}</p>
-                                    <p class="text-lg text-center text-gray-500">Desain Industri Lain-lain</p>
+                                    <p class="text-lg text-center text-gray-500">Desain Industri Lain-lain di tahun {{ $year }}</p>
                                 </div>
                             </div>
 
                             <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
                                 <div>
                                     <p class="text-3xl font-semibold text-center text-gray-800">{{ $bdllyear }}</p>
-                                    <p class="text-lg text-center text-gray-500">Merek Lain-lain</p>
+                                    <p class="text-lg text-center text-gray-500">Merek Lain-lain di tahun {{ $year }}</p>
                                 </div>
                             </div>
                         </div>
