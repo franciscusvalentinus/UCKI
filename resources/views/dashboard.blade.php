@@ -617,6 +617,534 @@
                     </div>
 
                     <div id="wrapper" class="max-w-xl px-4 py-4 mx-auto">
+                        <p>Jurusan Manajemen (IBM-RC) di Tahun Kabisat {{ $year }}</p>
+                        <div class="sm:grid sm:h-44 sm:grid-flow-row sm:gap-4 sm:grid-cols-4">
+                            <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $cibmnext }}</p>
+                                    <p class="text-lg text-center text-gray-500">Hak Cipta IBM-RC di tahun {{ $year }}</p>
+                                </div>
+                            </div>
+
+                            <div id="jh-stats-negative" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $pibmnext }}</p>
+                                    <p class="text-lg text-center text-gray-500">Paten IBM-RC di tahun {{ $year }}</p>
+                                </div>
+                            </div>
+
+                            <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $dibmnext }}</p>
+                                    <p class="text-lg text-center text-gray-500">Desain Industri IBM-RC di tahun {{ $year }}</p>
+                                </div>
+                            </div>
+
+                            <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $bibmnext }}</p>
+                                    <p class="text-lg text-center text-gray-500">Merek IBM-RC di tahun {{ $year }}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="wrapper" class="max-w-xl px-4 py-4 mx-auto">
+                        <p>Jurusan Manajemen (IBM-IC) di Tahun Kabisat {{ $year }}</p>
+                        <div class="sm:grid sm:h-44 sm:grid-flow-row sm:gap-4 sm:grid-cols-4">
+                            <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $cbminext }}</p>
+                                    <p class="text-lg text-center text-gray-500">Hak Cipta IBM-IC di tahun {{ $year }}</p>
+                                </div>
+                            </div>
+
+                            <div id="jh-stats-negative" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $pbminext }}</p>
+                                    <p class="text-lg text-center text-gray-500">Paten IBM-IC di tahun {{ $year }}</p>
+                                </div>
+                            </div>
+
+                            <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $dbminext }}</p>
+                                    <p class="text-lg text-center text-gray-500">Desain Industri IBM-IC di tahun {{ $year }}</p>
+                                </div>
+                            </div>
+
+                            <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $bbminext }}</p>
+                                    <p class="text-lg text-center text-gray-500">Merek IBM-IC di tahun {{ $year }}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="wrapper" class="max-w-xl px-4 py-4 mx-auto">
+                        <p>Jurusan Akuntansi (ACC) di Tahun Kabisat {{ $year }}</p>
+                        <div class="sm:grid sm:h-44 sm:grid-flow-row sm:gap-4 sm:grid-cols-4">
+                            <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $caccnext }}</p>
+                                    <p class="text-lg text-center text-gray-500">Hak Cipta ACC di tahun {{ $year }}</p>
+                                </div>
+                            </div>
+
+                            <div id="jh-stats-negative" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $paccnext }}</p>
+                                    <p class="text-lg text-center text-gray-500">Paten ACC di tahun {{ $year }}</p>
+                                </div>
+                            </div>
+
+                            <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $daccnext }}</p>
+                                    <p class="text-lg text-center text-gray-500">Desain Industri ACC di tahun {{ $year }}</p>
+                                </div>
+                            </div>
+
+                            <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $baccnext }}</p>
+                                    <p class="text-lg text-center text-gray-500">Merek ACC di tahun {{ $year }}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="wrapper" class="max-w-xl px-4 py-4 mx-auto">
+                        <p>Jurusan Ilmu Komunikasi (FIKOM) di Tahun Kabisat {{ $year }}</p>
+                        <div class="sm:grid sm:h-44 sm:grid-flow-row sm:gap-4 sm:grid-cols-4">
+                            <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $ccomnext }}</p>
+                                    <p class="text-lg text-center text-gray-500">Hak Cipta FIKOM di tahun {{ $year }}</p>
+                                </div>
+                            </div>
+
+                            <div id="jh-stats-negative" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $pcomnext }}</p>
+                                    <p class="text-lg text-center text-gray-500">Paten FIKOM di tahun {{ $year }}</p>
+                                </div>
+                            </div>
+
+                            <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $dcomnext }}</p>
+                                    <p class="text-lg text-center text-gray-500">Desain Industri FIKOM di tahun {{ $year }}</p>
+                                </div>
+                            </div>
+
+                            <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $bcomnext }}</p>
+                                    <p class="text-lg text-center text-gray-500">Merek FIKOM di tahun {{ $year }}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="wrapper" class="max-w-xl px-4 py-4 mx-auto">
+                        <p>Jurusan Pariwisata (HTB) di Tahun Kabisat {{ $year }}</p>
+                        <div class="sm:grid sm:h-44 sm:grid-flow-row sm:gap-4 sm:grid-cols-4">
+                            <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $chtbnext }}</p>
+                                    <p class="text-lg text-center text-gray-500">Hak Cipta HTB di tahun {{ $year }}</p>
+                                </div>
+                            </div>
+
+                            <div id="jh-stats-negative" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $phtbnext }}</p>
+                                    <p class="text-lg text-center text-gray-500">Paten HTB di tahun {{ $year }}</p>
+                                </div>
+                            </div>
+
+                            <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $dhtbnext }}</p>
+                                    <p class="text-lg text-center text-gray-500">Desain Industri HTB di tahun {{ $year }}</p>
+                                </div>
+                            </div>
+
+                            <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $bhtbnext }}</p>
+                                    <p class="text-lg text-center text-gray-500">Merek HTB di tahun {{ $year }}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="wrapper" class="max-w-xl px-4 py-4 mx-auto">
+                        <p>Jurusan Kuliner (CBZ) di Tahun Kabisat {{ $year }}</p>
+                        <div class="sm:grid sm:h-44 sm:grid-flow-row sm:gap-4 sm:grid-cols-4">
+                            <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $ccbznext }}</p>
+                                    <p class="text-lg text-center text-gray-500">Hak Cipta CBZ di tahun {{ $year }}</p>
+                                </div>
+                            </div>
+
+                            <div id="jh-stats-negative" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $pcbznext }}</p>
+                                    <p class="text-lg text-center text-gray-500">Paten CBZ di tahun {{ $year }}</p>
+                                </div>
+                            </div>
+
+                            <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $dcbznext }}</p>
+                                    <p class="text-lg text-center text-gray-500">Desain Industri CBZ di tahun {{ $year }}</p>
+                                </div>
+                            </div>
+
+                            <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $bcbznext }}</p>
+                                    <p class="text-lg text-center text-gray-500">Merek CBZ di tahun {{ $year }}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="wrapper" class="max-w-xl px-4 py-4 mx-auto">
+                        <p>Jurusan Psikologi (PSY) di Tahun Kabisat {{ $year }}</p>
+                        <div class="sm:grid sm:h-44 sm:grid-flow-row sm:gap-4 sm:grid-cols-4">
+                            <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $cpsynext }}</p>
+                                    <p class="text-lg text-center text-gray-500">Hak Cipta PSY di tahun {{ $year }}</p>
+                                </div>
+                            </div>
+
+                            <div id="jh-stats-negative" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $ppsynext }}</p>
+                                    <p class="text-lg text-center text-gray-500">Paten PSY di tahun {{ $year }}</p>
+                                </div>
+                            </div>
+
+                            <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $dpsynext }}</p>
+                                    <p class="text-lg text-center text-gray-500">Desain Industri PSY di tahun {{ $year }}</p>
+                                </div>
+                            </div>
+
+                            <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $bpsynext }}</p>
+                                    <p class="text-lg text-center text-gray-500">Merek PSY di tahun {{ $year }}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="wrapper" class="max-w-xl px-4 py-4 mx-auto">
+                        <p>Jurusan Informatika (IMT) di Tahun Kabisat {{ $year }}</p>
+                        <div class="sm:grid sm:h-44 sm:grid-flow-row sm:gap-4 sm:grid-cols-4">
+                            <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $cimtnext }}</p>
+                                    <p class="text-lg text-center text-gray-500">Hak Cipta IMT di tahun {{ $year }}</p>
+                                </div>
+                            </div>
+
+                            <div id="jh-stats-negative" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $pimtnext }}</p>
+                                    <p class="text-lg text-center text-gray-500">Paten IMT di tahun {{ $year }}</p>
+                                </div>
+                            </div>
+
+                            <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $dimtnext }}</p>
+                                    <p class="text-lg text-center text-gray-500">Desain Industri IMT di tahun {{ $year }}</p>
+                                </div>
+                            </div>
+
+                            <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $bimtnext }}</p>
+                                    <p class="text-lg text-center text-gray-500">Merek IMT di tahun {{ $year }}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="wrapper" class="max-w-xl px-4 py-4 mx-auto">
+                        <p>Jurusan Sistem Informasi (ISB) di Tahun Kabisat {{ $year }}</p>
+                        <div class="sm:grid sm:h-44 sm:grid-flow-row sm:gap-4 sm:grid-cols-4">
+                            <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $cisbnext }}</p>
+                                    <p class="text-lg text-center text-gray-500">Hak Cipta ISB di tahun {{ $year }}</p>
+                                </div>
+                            </div>
+
+                            <div id="jh-stats-negative" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $pisbnext }}</p>
+                                    <p class="text-lg text-center text-gray-500">Paten ISB di tahun {{ $year }}</p>
+                                </div>
+                            </div>
+
+                            <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $disbnext }}</p>
+                                    <p class="text-lg text-center text-gray-500">Desain Industri ISB di tahun {{ $year }}</p>
+                                </div>
+                            </div>
+
+                            <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $bisbnext }}</p>
+                                    <p class="text-lg text-center text-gray-500">Merek ISB di tahun {{ $year }}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="wrapper" class="max-w-xl px-4 py-4 mx-auto">
+                        <p>Jurusan Desain Komunikasi (VCD) di Tahun Kabisat {{ $year }}</p>
+                        <div class="sm:grid sm:h-44 sm:grid-flow-row sm:gap-4 sm:grid-cols-4">
+                            <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $cvcdnext }}</p>
+                                    <p class="text-lg text-center text-gray-500">Hak Cipta VCD di tahun {{ $year }}</p>
+                                </div>
+                            </div>
+
+                            <div id="jh-stats-negative" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $pvcdnext }}</p>
+                                    <p class="text-lg text-center text-gray-500">Paten VCD di tahun {{ $year }}</p>
+                                </div>
+                            </div>
+
+                            <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $dvcdnext }}</p>
+                                    <p class="text-lg text-center text-gray-500">Desain Industri VCD di tahun {{ $year }}</p>
+                                </div>
+                            </div>
+
+                            <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $bvcdnext }}</p>
+                                    <p class="text-lg text-center text-gray-500">Merek VCD di tahun {{ $year }}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="wrapper" class="max-w-xl px-4 py-4 mx-auto">
+                        <p>Jurusan Arsitektur (INA) di Tahun Kabisat {{ $year }}</p>
+                        <div class="sm:grid sm:h-44 sm:grid-flow-row sm:gap-4 sm:grid-cols-4">
+                            <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $cinanext }}</p>
+                                    <p class="text-lg text-center text-gray-500">Hak Cipta INA di tahun {{ $year }}</p>
+                                </div>
+                            </div>
+
+                            <div id="jh-stats-negative" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $pinanext }}</p>
+                                    <p class="text-lg text-center text-gray-500">Paten INA di tahun {{ $year }}</p>
+                                </div>
+                            </div>
+
+                            <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $dinanext }}</p>
+                                    <p class="text-lg text-center text-gray-500">Desain Industri INA di tahun {{ $year }}</p>
+                                </div>
+                            </div>
+
+                            <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $binanext }}</p>
+                                    <p class="text-lg text-center text-gray-500">Merek INA di tahun {{ $year }}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="wrapper" class="max-w-xl px-4 py-4 mx-auto">
+                        <p>Jurusan Desain Produk (FPD) di Tahun Kabisat {{ $year }}</p>
+                        <div class="sm:grid sm:h-44 sm:grid-flow-row sm:gap-4 sm:grid-cols-4">
+                            <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $cfpdnext }}</p>
+                                    <p class="text-lg text-center text-gray-500">Hak Cipta FPD di tahun {{ $year }}</p>
+                                </div>
+                            </div>
+
+                            <div id="jh-stats-negative" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $pfpdnext }}</p>
+                                    <p class="text-lg text-center text-gray-500">Paten FPD di tahun {{ $year }}</p>
+                                </div>
+                            </div>
+
+                            <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $dfpdnext }}</p>
+                                    <p class="text-lg text-center text-gray-500">Desain Industri FPD di tahun {{ $year }}</p>
+                                </div>
+                            </div>
+
+                            <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $bfpdnext }}</p>
+                                    <p class="text-lg text-center text-gray-500">Merek FPD di tahun {{ $year }}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="wrapper" class="max-w-xl px-4 py-4 mx-auto">
+                        <p>Jurusan Kedokteran (MED) di Tahun Kabisat {{ $year }}</p>
+                        <div class="sm:grid sm:h-44 sm:grid-flow-row sm:gap-4 sm:grid-cols-4">
+                            <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $cmednext }}</p>
+                                    <p class="text-lg text-center text-gray-500">Hak Cipta MED di tahun {{ $year }}</p>
+                                </div>
+                            </div>
+
+                            <div id="jh-stats-negative" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $pmednext }}</p>
+                                    <p class="text-lg text-center text-gray-500">Paten MED di tahun {{ $year }}</p>
+                                </div>
+                            </div>
+
+                            <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $dmednext }}</p>
+                                    <p class="text-lg text-center text-gray-500">Desain Industri MED di tahun {{ $year }}</p>
+                                </div>
+                            </div>
+
+                            <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $bmednext }}</p>
+                                    <p class="text-lg text-center text-gray-500">Merek MED di tahun {{ $year }}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="wrapper" class="max-w-xl px-4 py-4 mx-auto">
+                        <p>Jurusan Teknologi Pangan (FTP) di Tahun Kabisat {{ $year }}</p>
+                        <div class="sm:grid sm:h-44 sm:grid-flow-row sm:gap-4 sm:grid-cols-4">
+                            <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $cftpnext }}</p>
+                                    <p class="text-lg text-center text-gray-500">Hak Cipta FTP di tahun {{ $year }}</p>
+                                </div>
+                            </div>
+
+                            <div id="jh-stats-negative" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $pftpnext }}</p>
+                                    <p class="text-lg text-center text-gray-500">Paten FTP di tahun {{ $year }}</p>
+                                </div>
+                            </div>
+
+                            <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $dftpnext }}</p>
+                                    <p class="text-lg text-center text-gray-500">Desain Industri FTP di tahun {{ $year }}</p>
+                                </div>
+                            </div>
+
+                            <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $bftpnext }}</p>
+                                    <p class="text-lg text-center text-gray-500">Merek FTP di tahun {{ $year }}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="wrapper" class="max-w-xl px-4 py-4 mx-auto">
+                        <p>Jurusan S2 Manajemen (MEM) di Tahun Kabisat {{ $year }}</p>
+                        <div class="sm:grid sm:h-44 sm:grid-flow-row sm:gap-4 sm:grid-cols-4">
+                            <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $cmemnext }}</p>
+                                    <p class="text-lg text-center text-gray-500">Hak Cipta S2 Manajemen di tahun {{ $year }}</p>
+                                </div>
+                            </div>
+
+                            <div id="jh-stats-negative" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $pmemnext }}</p>
+                                    <p class="text-lg text-center text-gray-500">Paten S2 Manajemen di tahun {{ $year }}</p>
+                                </div>
+                            </div>
+
+                            <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $dmemnext }}</p>
+                                    <p class="text-lg text-center text-gray-500">Desain Industri S2 Manajemen di tahun {{ $year }}</p>
+                                </div>
+                            </div>
+
+                            <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $bmemnext }}</p>
+                                    <p class="text-lg text-center text-gray-500">Merek S2 Manajemen di tahun {{ $year }}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="wrapper" class="max-w-xl px-4 py-4 mx-auto">
+                        <p>Dosen yang tidak ber-NIDN / Mahasiswa di Tahun Kabisat {{ $year }}</p>
+                        <div class="sm:grid sm:h-44 sm:grid-flow-row sm:gap-4 sm:grid-cols-4">
+                            <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $cdllnext }}</p>
+                                    <p class="text-lg text-center text-gray-500">Hak Cipta Lain-lain di tahun {{ $year }}</p>
+                                </div>
+                            </div>
+
+                            <div id="jh-stats-negative" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $pdllnext }}</p>
+                                    <p class="text-lg text-center text-gray-500">Paten Lain-lain di tahun {{ $year }}</p>
+                                </div>
+                            </div>
+
+                            <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $ddllnext }}</p>
+                                    <p class="text-lg text-center text-gray-500">Desain Industri Lain-lain di tahun {{ $year }}</p>
+                                </div>
+                            </div>
+
+                            <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $bdllnext }}</p>
+                                    <p class="text-lg text-center text-gray-500">Merek Lain-lain di tahun {{ $year }}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="wrapper" class="max-w-xl px-4 py-4 mx-auto">
                         <p>Semua Jurusan di Tahun Akademik {{ $yearprev }} - {{ $year }}</p>
                         <div class="sm:grid sm:h-44 sm:grid-flow-row sm:gap-4 sm:grid-cols-4">
                             <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
