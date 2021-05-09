@@ -722,6 +722,324 @@ class DashboardController extends Controller
             }
         }
 
+        // NEXT
+
+        $copyrightsnext = Copyright::whereBetween('tanggal_permohonan', [$finalnow1, $finalnext])->pluck('helper');
+
+        foreach ($copyrightsnext as $c) {
+            $cpnext[] = explode(',', $c);
+        }
+
+        foreach ($cpnext as $c) {
+            $cdnext[] = array_values( array_flip( array_flip($c)));
+        }
+
+        foreach ($cdnext as $c) {
+            $cdepartmentsnext[] = Lecturer::select('department_id')->whereIn('id', $c)->get();
+        }
+
+        foreach ($cdepartmentsnext as $c) {
+            foreach ($c as $d) {
+                $cenext[] = $d->department_id;
+            }
+            $cfnext[] = $cenext;
+            unset($cenext);
+        }
+
+        foreach ($cfnext as $c) {
+            $cgnext[] = array_values( array_flip( array_flip($c)));
+        }
+
+        foreach ($cgnext as $d) {
+            foreach ($d as $c) {
+                if ($c == 1) {
+                    ++$cibmnext;
+                }
+                elseif ($c == 2) {
+                    ++$cbminext;
+                }
+                elseif ($c == 3) {
+                    ++$caccnext;
+                }
+                elseif ($c == 4) {
+                    ++$ccomnext;
+                }
+                elseif ($c == 5) {
+                    ++$chtbnext;
+                }
+                elseif ($c == 6) {
+                    ++$ccbznext;
+                }
+                elseif ($c == 7) {
+                    ++$cpsynext;
+                }
+                elseif ($c == 8) {
+                    ++$cimtnext;
+                }
+                elseif ($c == 9) {
+                    ++$cisbnext;
+                }
+                elseif ($c == 10) {
+                    ++$cvcdnext;
+                }
+                elseif ($c == 11) {
+                    ++$cinanext;
+                }
+                elseif ($c == 12) {
+                    ++$cfpdnext;
+                }
+                elseif ($c == 13) {
+                    ++$cmednext;
+                }
+                elseif ($c == 14) {
+                    ++$cftpnext;
+                }
+                elseif ($c == 15) {
+                    ++$cmemnext;
+                }
+                elseif ($c == 16) {
+                    ++$cdllnext;
+                }
+            }
+        }
+
+        $patentsnext = Patent::whereBetween('tanggal_permohonan', [$finalnow1, $finalnext])->pluck('helper');
+
+        foreach ($patentsnext as $p) {
+            $ppnext[] = explode(',', $p);
+        }
+
+        foreach ($ppnext as $p) {
+            $pdnext[] = array_values( array_flip( array_flip($p)));
+        }
+
+        foreach ($pdnext as $p) {
+            $pdepartmentsnext[] = Lecturer::select('department_id')->whereIn('id', $p)->get();
+        }
+
+        foreach ($pdepartmentsnext as $p) {
+            foreach ($p as $d) {
+                $penext[] = $d->department_id;
+            }
+            $pfnext[] = $penext;
+            unset($penext);
+        }
+
+        foreach ($pfnext as $p) {
+            $pgnext[] = array_values( array_flip( array_flip($p)));
+        }
+
+        foreach ($pgnext as $d) {
+            foreach ($d as $p) {
+                if ($p == 1) {
+                    ++$pibmnext;
+                }
+                elseif ($p == 2) {
+                    ++$pbminext;
+                }
+                elseif ($p == 3) {
+                    ++$paccnext;
+                }
+                elseif ($p == 4) {
+                    ++$pcomnext;
+                }
+                elseif ($p == 5) {
+                    ++$phtbnext;
+                }
+                elseif ($p == 6) {
+                    ++$pcbznext;
+                }
+                elseif ($p == 7) {
+                    ++$ppsynext;
+                }
+                elseif ($p == 8) {
+                    ++$pimtnext;
+                }
+                elseif ($p == 9) {
+                    ++$pisbnext;
+                }
+                elseif ($p == 10) {
+                    ++$pvcdnext;
+                }
+                elseif ($p == 11) {
+                    ++$pinanext;
+                }
+                elseif ($p == 12) {
+                    ++$pfpdnext;
+                }
+                elseif ($p == 13) {
+                    ++$pmednext;
+                }
+                elseif ($p == 14) {
+                    ++$pftpnext;
+                }
+                elseif ($p == 15) {
+                    ++$pmemnext;
+                }
+                elseif ($p == 16) {
+                    ++$pdllnext;
+                }
+            }
+        }
+
+        $designsnext = Design::whereBetween('tanggal_permohonan', [$finalnow1, $finalnext])->pluck('helper');
+
+        foreach ($designsnext as $d) {
+            $dpnext[] = explode(',', $d);
+        }
+
+        foreach ($dpnext as $d) {
+            $ddnext[] = array_values( array_flip( array_flip($d)));
+        }
+
+        foreach ($ddnext as $d) {
+            $ddepartmentsnext[] = Lecturer::select('department_id')->whereIn('id', $d)->get();
+        }
+
+        foreach ($ddepartmentsnext as $c) {
+            foreach ($c as $d) {
+                $denext[] = $d->department_id;
+            }
+            $dfnext[] = $denext;
+            unset($denext);
+        }
+
+        foreach ($dfnext as $d) {
+            $dgnext[] = array_values( array_flip( array_flip($d)));
+        }
+
+        foreach ($dgnext as $d) {
+            foreach ($d as $c) {
+                if ($c == 1) {
+                    ++$dibmnext;
+                }
+                elseif ($c == 2) {
+                    ++$dbminext;
+                }
+                elseif ($c == 3) {
+                    ++$daccnext;
+                }
+                elseif ($c == 4) {
+                    ++$dcomnext;
+                }
+                elseif ($c == 5) {
+                    ++$dhtbnext;
+                }
+                elseif ($c == 6) {
+                    ++$dcbznext;
+                }
+                elseif ($c == 7) {
+                    ++$dpsynext;
+                }
+                elseif ($c == 8) {
+                    ++$dimtnext;
+                }
+                elseif ($c == 9) {
+                    ++$disbnext;
+                }
+                elseif ($c == 10) {
+                    ++$dvcdnext;
+                }
+                elseif ($c == 11) {
+                    ++$dinanext;
+                }
+                elseif ($c == 12) {
+                    ++$dfpdnext;
+                }
+                elseif ($c == 13) {
+                    ++$dmednext;
+                }
+                elseif ($c == 14) {
+                    ++$dftpnext;
+                }
+                elseif ($c == 15) {
+                    ++$dmemnext;
+                }
+                elseif ($c == 16) {
+                    ++$ddllnext;
+                }
+            }
+        }
+
+        $brandsnext = Brand::whereBetween('tanggal_permohonan', [$finalnow1, $finalnext])->pluck('helper');
+
+        foreach ($brandsnext as $b) {
+            $bpnext[] = explode(',', $b);
+        }
+
+        foreach ($bpnext as $b) {
+            $bdnext[] = array_values( array_flip( array_flip($b)));
+        }
+
+        foreach ($bdnext as $b) {
+            $bdepartmentsnext[] = Lecturer::select('department_id')->whereIn('id', $b)->get();
+        }
+
+        foreach ($bdepartmentsnext as $b) {
+            foreach ($b as $d) {
+                $benext[] = $d->department_id;
+            }
+            $bfnext[] = $benext;
+            unset($benext);
+        }
+
+        foreach ($bfnext as $b) {
+            $bgnext[] = array_values( array_flip( array_flip($b)));
+        }
+
+        foreach ($bgnext as $d) {
+            foreach ($d as $b) {
+                if ($b == 1) {
+                    ++$bibmnext;
+                }
+                elseif ($b == 2) {
+                    ++$bbminext;
+                }
+                elseif ($b == 3) {
+                    ++$baccnext;
+                }
+                elseif ($b == 4) {
+                    ++$bcomnext;
+                }
+                elseif ($b == 5) {
+                    ++$bhtbnext;
+                }
+                elseif ($b == 6) {
+                    ++$bcbznext;
+                }
+                elseif ($b == 7) {
+                    ++$bpsynext;
+                }
+                elseif ($b == 8) {
+                    ++$bimtnext;
+                }
+                elseif ($b == 9) {
+                    ++$bisbnext;
+                }
+                elseif ($b == 10) {
+                    ++$bvcdnext;
+                }
+                elseif ($b == 11) {
+                    ++$binanext;
+                }
+                elseif ($b == 12) {
+                    ++$bfpdnext;
+                }
+                elseif ($b == 13) {
+                    ++$bmednext;
+                }
+                elseif ($b == 14) {
+                    ++$bftpnext;
+                }
+                elseif ($b == 15) {
+                    ++$bmemnext;
+                }
+                elseif ($b == 16) {
+                    ++$bdllnext;
+                }
+            }
+        }
+
         return view('dashboard', compact('cibm', 'cbmi', 'cacc', 'ccom', 'chtb', 'ccbz', 'cpsy', 'cimt', 'cisb', 'cvcd', 'cina', 'cfpd', 'cmed', 'cftp', 'cmem', 'cdll',
             'pibm', 'pbmi', 'pacc', 'pcom', 'phtb', 'pcbz', 'ppsy', 'pimt', 'pisb', 'pvcd', 'pina', 'pfpd', 'pmed', 'pftp', 'pmem', 'pdll',
             'dibm', 'dbmi', 'dacc', 'dcom', 'dhtb', 'dcbz', 'dpsy', 'dimt', 'disb', 'dvcd', 'dina', 'dfpd', 'dmed', 'dftp', 'dmem', 'ddll',
