@@ -617,7 +617,7 @@
                     </div>
 
                     <div id="wrapper" class="max-w-xl px-4 py-4 mx-auto">
-                        <p>Jurusan Manajemen (IBM-RC) di Tahun Kabisat {{ $year }}</p>
+                        <p>Jurusan Manajemen (IBM-RC) di Tahun Akademik {{ $year }} - {{ $yearnext }}</p>
                         <div class="sm:grid sm:h-44 sm:grid-flow-row sm:gap-4 sm:grid-cols-4">
                             <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
                                 <div>
@@ -650,7 +650,7 @@
                     </div>
 
                     <div id="wrapper" class="max-w-xl px-4 py-4 mx-auto">
-                        <p>Jurusan Manajemen (IBM-IC) di Tahun Kabisat {{ $year }}</p>
+                        <p>Jurusan Manajemen (IBM-IC) di Tahun Akademik {{ $year }} - {{ $yearnext }}</p>
                         <div class="sm:grid sm:h-44 sm:grid-flow-row sm:gap-4 sm:grid-cols-4">
                             <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
                                 <div>
@@ -683,7 +683,7 @@
                     </div>
 
                     <div id="wrapper" class="max-w-xl px-4 py-4 mx-auto">
-                        <p>Jurusan Akuntansi (ACC) di Tahun Kabisat {{ $year }}</p>
+                        <p>Jurusan Akuntansi (ACC) di Tahun Akademik {{ $year }} - {{ $yearnext }}</p>
                         <div class="sm:grid sm:h-44 sm:grid-flow-row sm:gap-4 sm:grid-cols-4">
                             <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
                                 <div>
@@ -716,7 +716,7 @@
                     </div>
 
                     <div id="wrapper" class="max-w-xl px-4 py-4 mx-auto">
-                        <p>Jurusan Ilmu Komunikasi (FIKOM) di Tahun Kabisat {{ $year }}</p>
+                        <p>Jurusan Ilmu Komunikasi (FIKOM) di Tahun Akademik {{ $year }} - {{ $yearnext }}</p>
                         <div class="sm:grid sm:h-44 sm:grid-flow-row sm:gap-4 sm:grid-cols-4">
                             <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
                                 <div>
@@ -749,7 +749,7 @@
                     </div>
 
                     <div id="wrapper" class="max-w-xl px-4 py-4 mx-auto">
-                        <p>Jurusan Pariwisata (HTB) di Tahun Kabisat {{ $year }}</p>
+                        <p>Jurusan Pariwisata (HTB) di Tahun Akademik {{ $year }} - {{ $yearnext }}</p>
                         <div class="sm:grid sm:h-44 sm:grid-flow-row sm:gap-4 sm:grid-cols-4">
                             <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
                                 <div>
@@ -782,7 +782,7 @@
                     </div>
 
                     <div id="wrapper" class="max-w-xl px-4 py-4 mx-auto">
-                        <p>Jurusan Kuliner (CBZ) di Tahun Kabisat {{ $year }}</p>
+                        <p>Jurusan Kuliner (CBZ) di Tahun Akademik {{ $year }} - {{ $yearnext }}</p>
                         <div class="sm:grid sm:h-44 sm:grid-flow-row sm:gap-4 sm:grid-cols-4">
                             <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
                                 <div>
@@ -815,7 +815,7 @@
                     </div>
 
                     <div id="wrapper" class="max-w-xl px-4 py-4 mx-auto">
-                        <p>Jurusan Psikologi (PSY) di Tahun Kabisat {{ $year }}</p>
+                        <p>Jurusan Psikologi (PSY) di Tahun Akademik {{ $year }} - {{ $yearnext }}</p>
                         <div class="sm:grid sm:h-44 sm:grid-flow-row sm:gap-4 sm:grid-cols-4">
                             <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
                                 <div>
@@ -848,7 +848,7 @@
                     </div>
 
                     <div id="wrapper" class="max-w-xl px-4 py-4 mx-auto">
-                        <p>Jurusan Informatika (IMT) di Tahun Kabisat {{ $year }}</p>
+                        <p>Jurusan Informatika (IMT) di Tahun Akademik {{ $year }} - {{ $yearnext }}</p>
                         <div class="sm:grid sm:h-44 sm:grid-flow-row sm:gap-4 sm:grid-cols-4">
                             <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
                                 <div>
@@ -881,7 +881,7 @@
                     </div>
 
                     <div id="wrapper" class="max-w-xl px-4 py-4 mx-auto">
-                        <p>Jurusan Sistem Informasi (ISB) di Tahun Kabisat {{ $year }}</p>
+                        <p>Jurusan Sistem Informasi (ISB) di Tahun Akademik {{ $year }} - {{ $yearnext }}</p>
                         <div class="sm:grid sm:h-44 sm:grid-flow-row sm:gap-4 sm:grid-cols-4">
                             <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
                                 <div>
@@ -914,7 +914,7 @@
                     </div>
 
                     <div id="wrapper" class="max-w-xl px-4 py-4 mx-auto">
-                        <p>Jurusan Desain Komunikasi (VCD) di Tahun Kabisat {{ $year }}</p>
+                        <p>Jurusan Desain Komunikasi (VCD) di Tahun Akademik {{ $year }} - {{ $yearnext }}</p>
                         <div class="sm:grid sm:h-44 sm:grid-flow-row sm:gap-4 sm:grid-cols-4">
                             <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
                                 <div>
@@ -947,7 +947,7 @@
                     </div>
 
                     <div id="wrapper" class="max-w-xl px-4 py-4 mx-auto">
-                        <p>Jurusan Arsitektur (INA) di Tahun Kabisat {{ $year }}</p>
+                        <p>Jurusan Arsitektur (INA) di Tahun Akademik {{ $year }} - {{ $yearnext }}</p>
                         <div class="sm:grid sm:h-44 sm:grid-flow-row sm:gap-4 sm:grid-cols-4">
                             <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
                                 <div>
@@ -980,7 +980,7 @@
                     </div>
 
                     <div id="wrapper" class="max-w-xl px-4 py-4 mx-auto">
-                        <p>Jurusan Desain Produk (FPD) di Tahun Kabisat {{ $year }}</p>
+                        <p>Jurusan Desain Produk (FPD) di Tahun Akademik {{ $year }} - {{ $yearnext }}</p>
                         <div class="sm:grid sm:h-44 sm:grid-flow-row sm:gap-4 sm:grid-cols-4">
                             <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
                                 <div>
@@ -1013,7 +1013,7 @@
                     </div>
 
                     <div id="wrapper" class="max-w-xl px-4 py-4 mx-auto">
-                        <p>Jurusan Kedokteran (MED) di Tahun Kabisat {{ $year }}</p>
+                        <p>Jurusan Kedokteran (MED) di Tahun Akademik {{ $year }} - {{ $yearnext }}</p>
                         <div class="sm:grid sm:h-44 sm:grid-flow-row sm:gap-4 sm:grid-cols-4">
                             <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
                                 <div>
@@ -1046,7 +1046,7 @@
                     </div>
 
                     <div id="wrapper" class="max-w-xl px-4 py-4 mx-auto">
-                        <p>Jurusan Teknologi Pangan (FTP) di Tahun Kabisat {{ $year }}</p>
+                        <p>Jurusan Teknologi Pangan (FTP) di Tahun Akademik {{ $year }} - {{ $yearnext }}</p>
                         <div class="sm:grid sm:h-44 sm:grid-flow-row sm:gap-4 sm:grid-cols-4">
                             <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
                                 <div>
@@ -1079,7 +1079,7 @@
                     </div>
 
                     <div id="wrapper" class="max-w-xl px-4 py-4 mx-auto">
-                        <p>Jurusan S2 Manajemen (MEM) di Tahun Kabisat {{ $year }}</p>
+                        <p>Jurusan S2 Manajemen (MEM) di Tahun Akademik {{ $year }} - {{ $yearnext }}</p>
                         <div class="sm:grid sm:h-44 sm:grid-flow-row sm:gap-4 sm:grid-cols-4">
                             <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
                                 <div>
@@ -1112,7 +1112,7 @@
                     </div>
 
                     <div id="wrapper" class="max-w-xl px-4 py-4 mx-auto">
-                        <p>Dosen yang tidak ber-NIDN / Mahasiswa di Tahun Kabisat {{ $year }}</p>
+                        <p>Dosen yang tidak ber-NIDN / Mahasiswa di Tahun Akademik {{ $year }} - {{ $yearnext }}</p>
                         <div class="sm:grid sm:h-44 sm:grid-flow-row sm:gap-4 sm:grid-cols-4">
                             <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
                                 <div>
