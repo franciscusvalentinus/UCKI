@@ -648,568 +648,568 @@
                             </div>
                         </div>
                     </div>
+                @else
+                    <div id="wrapper" class="max-w-xl px-4 py-4 mx-auto">
+                        <p>Semua Jurusan</p>
+                        <div class="sm:grid sm:h-44 sm:grid-flow-row sm:gap-4 sm:grid-cols-4">
+                            <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ count($copyright) }}</p>
+                                    <p class="text-lg text-center text-gray-500">Total Hak Cipta</p>
+                                </div>
+                            </div>
+
+                            <div id="jh-stats-negative" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ count($patent) }}</p>
+                                    <p class="text-lg text-center text-gray-500">Total Paten</p>
+                                </div>
+                            </div>
+
+                            <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ count($design) }}</p>
+                                    <p class="text-lg text-center text-gray-500">Total Desain Industri</p>
+                                </div>
+                            </div>
+
+                            <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ count($brand) }}</p>
+                                    <p class="text-lg text-center text-gray-500">Total Merek</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="wrapper" class="max-w-xl px-4 py-4 mx-auto">
+                        <p>Jurusan Manajemen (IBM-RC)</p>
+                        <div class="sm:grid sm:h-44 sm:grid-flow-row sm:gap-4 sm:grid-cols-4">
+                            <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $cibm }}</p>
+                                    <p class="text-lg text-center text-gray-500">Hak Cipta IBM-RC</p>
+                                </div>
+                            </div>
+
+                            <div id="jh-stats-negative" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $pibm }}</p>
+                                    <p class="text-lg text-center text-gray-500">Paten IBM-RC</p>
+                                </div>
+                            </div>
+
+                            <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $dibm }}</p>
+                                    <p class="text-lg text-center text-gray-500">Desain Industri IBM-RC</p>
+                                </div>
+                            </div>
+
+                            <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $bibm }}</p>
+                                    <p class="text-lg text-center text-gray-500">Merek IBM-RC</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="wrapper" class="max-w-xl px-4 py-4 mx-auto">
+                        <p>Jurusan Manajemen (IBM-IC)</p>
+                        <div class="sm:grid sm:h-44 sm:grid-flow-row sm:gap-4 sm:grid-cols-4">
+                            <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $cbmi }}</p>
+                                    <p class="text-lg text-center text-gray-500">Hak Cipta IBM-IC</p>
+                                </div>
+                            </div>
+
+                            <div id="jh-stats-negative" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $pbmi }}</p>
+                                    <p class="text-lg text-center text-gray-500">Paten IBM-IC</p>
+                                </div>
+                            </div>
+
+                            <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $dbmi }}</p>
+                                    <p class="text-lg text-center text-gray-500">Desain Industri IBM-IC</p>
+                                </div>
+                            </div>
+
+                            <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $bbmi }}</p>
+                                    <p class="text-lg text-center text-gray-500">Merek IBM-IC</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="wrapper" class="max-w-xl px-4 py-4 mx-auto">
+                        <p>Jurusan Akuntansi (ACC)</p>
+                        <div class="sm:grid sm:h-44 sm:grid-flow-row sm:gap-4 sm:grid-cols-4">
+                            <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $cacc }}</p>
+                                    <p class="text-lg text-center text-gray-500">Hak Cipta ACC</p>
+                                </div>
+                            </div>
+
+                            <div id="jh-stats-negative" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $pacc }}</p>
+                                    <p class="text-lg text-center text-gray-500">Paten ACC</p>
+                                </div>
+                            </div>
+
+                            <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $dacc }}</p>
+                                    <p class="text-lg text-center text-gray-500">Desain Industri ACC</p>
+                                </div>
+                            </div>
+
+                            <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $bacc }}</p>
+                                    <p class="text-lg text-center text-gray-500">Merek ACC</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="wrapper" class="max-w-xl px-4 py-4 mx-auto">
+                        <p>Jurusan Ilmu Komunikasi (FIKOM)</p>
+                        <div class="sm:grid sm:h-44 sm:grid-flow-row sm:gap-4 sm:grid-cols-4">
+                            <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $ccom }}</p>
+                                    <p class="text-lg text-center text-gray-500">Hak Cipta FIKOM</p>
+                                </div>
+                            </div>
+
+                            <div id="jh-stats-negative" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $pcom }}</p>
+                                    <p class="text-lg text-center text-gray-500">Paten FIKOM</p>
+                                </div>
+                            </div>
+
+                            <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $dcom }}</p>
+                                    <p class="text-lg text-center text-gray-500">Desain Industri FIKOM</p>
+                                </div>
+                            </div>
+
+                            <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $bcom }}</p>
+                                    <p class="text-lg text-center text-gray-500">Merek FIKOM</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="wrapper" class="max-w-xl px-4 py-4 mx-auto">
+                        <p>Jurusan Pariwisata (HTB)</p>
+                        <div class="sm:grid sm:h-44 sm:grid-flow-row sm:gap-4 sm:grid-cols-4">
+                            <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $chtb }}</p>
+                                    <p class="text-lg text-center text-gray-500">Hak Cipta HTB</p>
+                                </div>
+                            </div>
+
+                            <div id="jh-stats-negative" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $phtb }}</p>
+                                    <p class="text-lg text-center text-gray-500">Paten HTB</p>
+                                </div>
+                            </div>
+
+                            <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $dhtb }}</p>
+                                    <p class="text-lg text-center text-gray-500">Desain Industri HTB</p>
+                                </div>
+                            </div>
+
+                            <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $bhtb }}</p>
+                                    <p class="text-lg text-center text-gray-500">Merek HTB</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="wrapper" class="max-w-xl px-4 py-4 mx-auto">
+                        <p>Jurusan Kuliner (CBZ)</p>
+                        <div class="sm:grid sm:h-44 sm:grid-flow-row sm:gap-4 sm:grid-cols-4">
+                            <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $ccbz }}</p>
+                                    <p class="text-lg text-center text-gray-500">Hak Cipta CBZ</p>
+                                </div>
+                            </div>
+
+                            <div id="jh-stats-negative" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $pcbz }}</p>
+                                    <p class="text-lg text-center text-gray-500">Paten CBZ</p>
+                                </div>
+                            </div>
+
+                            <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $dcbz }}</p>
+                                    <p class="text-lg text-center text-gray-500">Desain Industri CBZ</p>
+                                </div>
+                            </div>
+
+                            <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $bcbz }}</p>
+                                    <p class="text-lg text-center text-gray-500">Merek CBZ</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="wrapper" class="max-w-xl px-4 py-4 mx-auto">
+                        <p>Jurusan Psikologi (PSY)</p>
+                        <div class="sm:grid sm:h-44 sm:grid-flow-row sm:gap-4 sm:grid-cols-4">
+                            <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $cpsy }}</p>
+                                    <p class="text-lg text-center text-gray-500">Hak Cipta PSY</p>
+                                </div>
+                            </div>
+
+                            <div id="jh-stats-negative" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $ppsy }}</p>
+                                    <p class="text-lg text-center text-gray-500">Paten PSY</p>
+                                </div>
+                            </div>
+
+                            <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $dpsy }}</p>
+                                    <p class="text-lg text-center text-gray-500">Desain Industri PSY</p>
+                                </div>
+                            </div>
+
+                            <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $bpsy }}</p>
+                                    <p class="text-lg text-center text-gray-500">Merek PSY</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="wrapper" class="max-w-xl px-4 py-4 mx-auto">
+                        <p>Jurusan Informatika (IMT)</p>
+                        <div class="sm:grid sm:h-44 sm:grid-flow-row sm:gap-4 sm:grid-cols-4">
+                            <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $cimt }}</p>
+                                    <p class="text-lg text-center text-gray-500">Hak Cipta IMT</p>
+                                </div>
+                            </div>
+
+                            <div id="jh-stats-negative" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $pimt }}</p>
+                                    <p class="text-lg text-center text-gray-500">Paten IMT</p>
+                                </div>
+                            </div>
+
+                            <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $dimt }}</p>
+                                    <p class="text-lg text-center text-gray-500">Desain Industri IMT</p>
+                                </div>
+                            </div>
+
+                            <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $bimt }}</p>
+                                    <p class="text-lg text-center text-gray-500">Merek IMT</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="wrapper" class="max-w-xl px-4 py-4 mx-auto">
+                        <p>Jurusan Sistem Informasi (ISB)</p>
+                        <div class="sm:grid sm:h-44 sm:grid-flow-row sm:gap-4 sm:grid-cols-4">
+                            <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $cisb }}</p>
+                                    <p class="text-lg text-center text-gray-500">Hak Cipta ISB</p>
+                                </div>
+                            </div>
+
+                            <div id="jh-stats-negative" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $pisb }}</p>
+                                    <p class="text-lg text-center text-gray-500">Paten ISB</p>
+                                </div>
+                            </div>
+
+                            <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $disb }}</p>
+                                    <p class="text-lg text-center text-gray-500">Desain Industri ISB</p>
+                                </div>
+                            </div>
+
+                            <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $bisb }}</p>
+                                    <p class="text-lg text-center text-gray-500">Merek ISB</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="wrapper" class="max-w-xl px-4 py-4 mx-auto">
+                        <p>Jurusan Desain Komunikasi (VCD)</p>
+                        <div class="sm:grid sm:h-44 sm:grid-flow-row sm:gap-4 sm:grid-cols-4">
+                            <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $cvcd }}</p>
+                                    <p class="text-lg text-center text-gray-500">Hak Cipta VCD</p>
+                                </div>
+                            </div>
+
+                            <div id="jh-stats-negative" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $pvcd }}</p>
+                                    <p class="text-lg text-center text-gray-500">Paten VCD</p>
+                                </div>
+                            </div>
+
+                            <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $dvcd }}</p>
+                                    <p class="text-lg text-center text-gray-500">Desain Industri VCD</p>
+                                </div>
+                            </div>
+
+                            <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $bvcd }}</p>
+                                    <p class="text-lg text-center text-gray-500">Merek VCD</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="wrapper" class="max-w-xl px-4 py-4 mx-auto">
+                        <p>Jurusan Arsitektur (INA)</p>
+                        <div class="sm:grid sm:h-44 sm:grid-flow-row sm:gap-4 sm:grid-cols-4">
+                            <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $cina }}</p>
+                                    <p class="text-lg text-center text-gray-500">Hak Cipta INA</p>
+                                </div>
+                            </div>
+
+                            <div id="jh-stats-negative" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $pina }}</p>
+                                    <p class="text-lg text-center text-gray-500">Paten INA</p>
+                                </div>
+                            </div>
+
+                            <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $dina }}</p>
+                                    <p class="text-lg text-center text-gray-500">Desain Industri INA</p>
+                                </div>
+                            </div>
+
+                            <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $bina }}</p>
+                                    <p class="text-lg text-center text-gray-500">Merek INA</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="wrapper" class="max-w-xl px-4 py-4 mx-auto">
+                        <p>Jurusan Desain Produk (FPD)</p>
+                        <div class="sm:grid sm:h-44 sm:grid-flow-row sm:gap-4 sm:grid-cols-4">
+                            <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $cfpd }}</p>
+                                    <p class="text-lg text-center text-gray-500">Hak Cipta FPD</p>
+                                </div>
+                            </div>
+
+                            <div id="jh-stats-negative" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $pfpd }}</p>
+                                    <p class="text-lg text-center text-gray-500">Paten FPD</p>
+                                </div>
+                            </div>
+
+                            <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $dfpd }}</p>
+                                    <p class="text-lg text-center text-gray-500">Desain Industri FPD</p>
+                                </div>
+                            </div>
+
+                            <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $bfpd }}</p>
+                                    <p class="text-lg text-center text-gray-500">Merek FPD</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="wrapper" class="max-w-xl px-4 py-4 mx-auto">
+                        <p>Jurusan Kedokteran (MED)</p>
+                        <div class="sm:grid sm:h-44 sm:grid-flow-row sm:gap-4 sm:grid-cols-4">
+                            <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $cmed }}</p>
+                                    <p class="text-lg text-center text-gray-500">Hak Cipta MED</p>
+                                </div>
+                            </div>
+
+                            <div id="jh-stats-negative" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $pmed }}</p>
+                                    <p class="text-lg text-center text-gray-500">Paten MED</p>
+                                </div>
+                            </div>
+
+                            <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $dmed }}</p>
+                                    <p class="text-lg text-center text-gray-500">Desain Industri MED</p>
+                                </div>
+                            </div>
+
+                            <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $bmed }}</p>
+                                    <p class="text-lg text-center text-gray-500">Merek MED</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="wrapper" class="max-w-xl px-4 py-4 mx-auto">
+                        <p>Jurusan Teknologi Pangan (FTP)</p>
+                        <div class="sm:grid sm:h-44 sm:grid-flow-row sm:gap-4 sm:grid-cols-4">
+                            <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $cftp }}</p>
+                                    <p class="text-lg text-center text-gray-500">Hak Cipta FTP</p>
+                                </div>
+                            </div>
+
+                            <div id="jh-stats-negative" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $pftp }}</p>
+                                    <p class="text-lg text-center text-gray-500">Paten FTP</p>
+                                </div>
+                            </div>
+
+                            <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $dftp }}</p>
+                                    <p class="text-lg text-center text-gray-500">Desain Industri FTP</p>
+                                </div>
+                            </div>
+
+                            <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $bftp }}</p>
+                                    <p class="text-lg text-center text-gray-500">Merek FTP</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="wrapper" class="max-w-xl px-4 py-4 mx-auto">
+                        <p>Jurusan S2 Manajemen (MEM)</p>
+                        <div class="sm:grid sm:h-44 sm:grid-flow-row sm:gap-4 sm:grid-cols-4">
+                            <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $cmem }}</p>
+                                    <p class="text-lg text-center text-gray-500">Hak Cipta S2 Manajemen</p>
+                                </div>
+                            </div>
+
+                            <div id="jh-stats-negative" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $pmem }}</p>
+                                    <p class="text-lg text-center text-gray-500">Paten S2 Manajemen</p>
+                                </div>
+                            </div>
+
+                            <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $dmem }}</p>
+                                    <p class="text-lg text-center text-gray-500">Desain Industri S2 Manajemen</p>
+                                </div>
+                            </div>
+
+                            <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $bmem }}</p>
+                                    <p class="text-lg text-center text-gray-500">Merek S2 Manajemen</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="wrapper" class="max-w-xl px-4 py-4 mx-auto">
+                        <p>Dosen yang tidak ber-NIDN / Mahasiswa</p>
+                        <div class="sm:grid sm:h-44 sm:grid-flow-row sm:gap-4 sm:grid-cols-4">
+                            <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $cdll }}</p>
+                                    <p class="text-lg text-center text-gray-500">Hak Cipta Lain-lain</p>
+                                </div>
+                            </div>
+
+                            <div id="jh-stats-negative" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $pdll }}</p>
+                                    <p class="text-lg text-center text-gray-500">Paten Lain-lain</p>
+                                </div>
+                            </div>
+
+                            <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $ddll }}</p>
+                                    <p class="text-lg text-center text-gray-500">Desain Industri Lain-lain</p>
+                                </div>
+                            </div>
+
+                            <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
+                                <div>
+                                    <p class="text-3xl font-semibold text-center text-gray-800">{{ $bdll }}</p>
+                                    <p class="text-lg text-center text-gray-500">Merek Lain-lain</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 @endif
-
-                <div id="wrapper" class="max-w-xl px-4 py-4 mx-auto">
-                    <p>Semua Jurusan</p>
-                    <div class="sm:grid sm:h-44 sm:grid-flow-row sm:gap-4 sm:grid-cols-4">
-                        <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
-                            <div>
-                                <p class="text-3xl font-semibold text-center text-gray-800">{{ count($copyright) }}</p>
-                                <p class="text-lg text-center text-gray-500">Total Hak Cipta</p>
-                            </div>
-                        </div>
-
-                        <div id="jh-stats-negative" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
-                            <div>
-                                <p class="text-3xl font-semibold text-center text-gray-800">{{ count($patent) }}</p>
-                                <p class="text-lg text-center text-gray-500">Total Paten</p>
-                            </div>
-                        </div>
-
-                        <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
-                            <div>
-                                <p class="text-3xl font-semibold text-center text-gray-800">{{ count($design) }}</p>
-                                <p class="text-lg text-center text-gray-500">Total Desain Industri</p>
-                            </div>
-                        </div>
-
-                        <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
-                            <div>
-                                <p class="text-3xl font-semibold text-center text-gray-800">{{ count($brand) }}</p>
-                                <p class="text-lg text-center text-gray-500">Total Merek</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div id="wrapper" class="max-w-xl px-4 py-4 mx-auto">
-                    <p>Jurusan Manajemen (IBM-RC)</p>
-                    <div class="sm:grid sm:h-44 sm:grid-flow-row sm:gap-4 sm:grid-cols-4">
-                        <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
-                            <div>
-                                <p class="text-3xl font-semibold text-center text-gray-800">{{ $cibm }}</p>
-                                <p class="text-lg text-center text-gray-500">Hak Cipta IBM-RC</p>
-                            </div>
-                        </div>
-
-                        <div id="jh-stats-negative" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
-                            <div>
-                                <p class="text-3xl font-semibold text-center text-gray-800">{{ $pibm }}</p>
-                                <p class="text-lg text-center text-gray-500">Paten IBM-RC</p>
-                            </div>
-                        </div>
-
-                        <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
-                            <div>
-                                <p class="text-3xl font-semibold text-center text-gray-800">{{ $dibm }}</p>
-                                <p class="text-lg text-center text-gray-500">Desain Industri IBM-RC</p>
-                            </div>
-                        </div>
-
-                        <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
-                            <div>
-                                <p class="text-3xl font-semibold text-center text-gray-800">{{ $bibm }}</p>
-                                <p class="text-lg text-center text-gray-500">Merek IBM-RC</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div id="wrapper" class="max-w-xl px-4 py-4 mx-auto">
-                    <p>Jurusan Manajemen (IBM-IC)</p>
-                    <div class="sm:grid sm:h-44 sm:grid-flow-row sm:gap-4 sm:grid-cols-4">
-                        <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
-                            <div>
-                                <p class="text-3xl font-semibold text-center text-gray-800">{{ $cbmi }}</p>
-                                <p class="text-lg text-center text-gray-500">Hak Cipta IBM-IC</p>
-                            </div>
-                        </div>
-
-                        <div id="jh-stats-negative" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
-                            <div>
-                                <p class="text-3xl font-semibold text-center text-gray-800">{{ $pbmi }}</p>
-                                <p class="text-lg text-center text-gray-500">Paten IBM-IC</p>
-                            </div>
-                        </div>
-
-                        <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
-                            <div>
-                                <p class="text-3xl font-semibold text-center text-gray-800">{{ $dbmi }}</p>
-                                <p class="text-lg text-center text-gray-500">Desain Industri IBM-IC</p>
-                            </div>
-                        </div>
-
-                        <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
-                            <div>
-                                <p class="text-3xl font-semibold text-center text-gray-800">{{ $bbmi }}</p>
-                                <p class="text-lg text-center text-gray-500">Merek IBM-IC</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div id="wrapper" class="max-w-xl px-4 py-4 mx-auto">
-                    <p>Jurusan Akuntansi (ACC)</p>
-                    <div class="sm:grid sm:h-44 sm:grid-flow-row sm:gap-4 sm:grid-cols-4">
-                        <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
-                            <div>
-                                <p class="text-3xl font-semibold text-center text-gray-800">{{ $cacc }}</p>
-                                <p class="text-lg text-center text-gray-500">Hak Cipta ACC</p>
-                            </div>
-                        </div>
-
-                        <div id="jh-stats-negative" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
-                            <div>
-                                <p class="text-3xl font-semibold text-center text-gray-800">{{ $pacc }}</p>
-                                <p class="text-lg text-center text-gray-500">Paten ACC</p>
-                            </div>
-                        </div>
-
-                        <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
-                            <div>
-                                <p class="text-3xl font-semibold text-center text-gray-800">{{ $dacc }}</p>
-                                <p class="text-lg text-center text-gray-500">Desain Industri ACC</p>
-                            </div>
-                        </div>
-
-                        <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
-                            <div>
-                                <p class="text-3xl font-semibold text-center text-gray-800">{{ $bacc }}</p>
-                                <p class="text-lg text-center text-gray-500">Merek ACC</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div id="wrapper" class="max-w-xl px-4 py-4 mx-auto">
-                    <p>Jurusan Ilmu Komunikasi (FIKOM)</p>
-                    <div class="sm:grid sm:h-44 sm:grid-flow-row sm:gap-4 sm:grid-cols-4">
-                        <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
-                            <div>
-                                <p class="text-3xl font-semibold text-center text-gray-800">{{ $ccom }}</p>
-                                <p class="text-lg text-center text-gray-500">Hak Cipta FIKOM</p>
-                            </div>
-                        </div>
-
-                        <div id="jh-stats-negative" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
-                            <div>
-                                <p class="text-3xl font-semibold text-center text-gray-800">{{ $pcom }}</p>
-                                <p class="text-lg text-center text-gray-500">Paten FIKOM</p>
-                            </div>
-                        </div>
-
-                        <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
-                            <div>
-                                <p class="text-3xl font-semibold text-center text-gray-800">{{ $dcom }}</p>
-                                <p class="text-lg text-center text-gray-500">Desain Industri FIKOM</p>
-                            </div>
-                        </div>
-
-                        <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
-                            <div>
-                                <p class="text-3xl font-semibold text-center text-gray-800">{{ $bcom }}</p>
-                                <p class="text-lg text-center text-gray-500">Merek FIKOM</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div id="wrapper" class="max-w-xl px-4 py-4 mx-auto">
-                    <p>Jurusan Pariwisata (HTB)</p>
-                    <div class="sm:grid sm:h-44 sm:grid-flow-row sm:gap-4 sm:grid-cols-4">
-                        <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
-                            <div>
-                                <p class="text-3xl font-semibold text-center text-gray-800">{{ $chtb }}</p>
-                                <p class="text-lg text-center text-gray-500">Hak Cipta HTB</p>
-                            </div>
-                        </div>
-
-                        <div id="jh-stats-negative" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
-                            <div>
-                                <p class="text-3xl font-semibold text-center text-gray-800">{{ $phtb }}</p>
-                                <p class="text-lg text-center text-gray-500">Paten HTB</p>
-                            </div>
-                        </div>
-
-                        <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
-                            <div>
-                                <p class="text-3xl font-semibold text-center text-gray-800">{{ $dhtb }}</p>
-                                <p class="text-lg text-center text-gray-500">Desain Industri HTB</p>
-                            </div>
-                        </div>
-
-                        <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
-                            <div>
-                                <p class="text-3xl font-semibold text-center text-gray-800">{{ $bhtb }}</p>
-                                <p class="text-lg text-center text-gray-500">Merek HTB</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div id="wrapper" class="max-w-xl px-4 py-4 mx-auto">
-                    <p>Jurusan Kuliner (CBZ)</p>
-                    <div class="sm:grid sm:h-44 sm:grid-flow-row sm:gap-4 sm:grid-cols-4">
-                        <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
-                            <div>
-                                <p class="text-3xl font-semibold text-center text-gray-800">{{ $ccbz }}</p>
-                                <p class="text-lg text-center text-gray-500">Hak Cipta CBZ</p>
-                            </div>
-                        </div>
-
-                        <div id="jh-stats-negative" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
-                            <div>
-                                <p class="text-3xl font-semibold text-center text-gray-800">{{ $pcbz }}</p>
-                                <p class="text-lg text-center text-gray-500">Paten CBZ</p>
-                            </div>
-                        </div>
-
-                        <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
-                            <div>
-                                <p class="text-3xl font-semibold text-center text-gray-800">{{ $dcbz }}</p>
-                                <p class="text-lg text-center text-gray-500">Desain Industri CBZ</p>
-                            </div>
-                        </div>
-
-                        <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
-                            <div>
-                                <p class="text-3xl font-semibold text-center text-gray-800">{{ $bcbz }}</p>
-                                <p class="text-lg text-center text-gray-500">Merek CBZ</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div id="wrapper" class="max-w-xl px-4 py-4 mx-auto">
-                    <p>Jurusan Psikologi (PSY)</p>
-                    <div class="sm:grid sm:h-44 sm:grid-flow-row sm:gap-4 sm:grid-cols-4">
-                        <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
-                            <div>
-                                <p class="text-3xl font-semibold text-center text-gray-800">{{ $cpsy }}</p>
-                                <p class="text-lg text-center text-gray-500">Hak Cipta PSY</p>
-                            </div>
-                        </div>
-
-                        <div id="jh-stats-negative" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
-                            <div>
-                                <p class="text-3xl font-semibold text-center text-gray-800">{{ $ppsy }}</p>
-                                <p class="text-lg text-center text-gray-500">Paten PSY</p>
-                            </div>
-                        </div>
-
-                        <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
-                            <div>
-                                <p class="text-3xl font-semibold text-center text-gray-800">{{ $dpsy }}</p>
-                                <p class="text-lg text-center text-gray-500">Desain Industri PSY</p>
-                            </div>
-                        </div>
-
-                        <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
-                            <div>
-                                <p class="text-3xl font-semibold text-center text-gray-800">{{ $bpsy }}</p>
-                                <p class="text-lg text-center text-gray-500">Merek PSY</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div id="wrapper" class="max-w-xl px-4 py-4 mx-auto">
-                    <p>Jurusan Informatika (IMT)</p>
-                    <div class="sm:grid sm:h-44 sm:grid-flow-row sm:gap-4 sm:grid-cols-4">
-                        <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
-                            <div>
-                                <p class="text-3xl font-semibold text-center text-gray-800">{{ $cimt }}</p>
-                                <p class="text-lg text-center text-gray-500">Hak Cipta IMT</p>
-                            </div>
-                        </div>
-
-                        <div id="jh-stats-negative" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
-                            <div>
-                                <p class="text-3xl font-semibold text-center text-gray-800">{{ $pimt }}</p>
-                                <p class="text-lg text-center text-gray-500">Paten IMT</p>
-                            </div>
-                        </div>
-
-                        <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
-                            <div>
-                                <p class="text-3xl font-semibold text-center text-gray-800">{{ $dimt }}</p>
-                                <p class="text-lg text-center text-gray-500">Desain Industri IMT</p>
-                            </div>
-                        </div>
-
-                        <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
-                            <div>
-                                <p class="text-3xl font-semibold text-center text-gray-800">{{ $bimt }}</p>
-                                <p class="text-lg text-center text-gray-500">Merek IMT</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div id="wrapper" class="max-w-xl px-4 py-4 mx-auto">
-                    <p>Jurusan Sistem Informasi (ISB)</p>
-                    <div class="sm:grid sm:h-44 sm:grid-flow-row sm:gap-4 sm:grid-cols-4">
-                        <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
-                            <div>
-                                <p class="text-3xl font-semibold text-center text-gray-800">{{ $cisb }}</p>
-                                <p class="text-lg text-center text-gray-500">Hak Cipta ISB</p>
-                            </div>
-                        </div>
-
-                        <div id="jh-stats-negative" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
-                            <div>
-                                <p class="text-3xl font-semibold text-center text-gray-800">{{ $pisb }}</p>
-                                <p class="text-lg text-center text-gray-500">Paten ISB</p>
-                            </div>
-                        </div>
-
-                        <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
-                            <div>
-                                <p class="text-3xl font-semibold text-center text-gray-800">{{ $disb }}</p>
-                                <p class="text-lg text-center text-gray-500">Desain Industri ISB</p>
-                            </div>
-                        </div>
-
-                        <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
-                            <div>
-                                <p class="text-3xl font-semibold text-center text-gray-800">{{ $bisb }}</p>
-                                <p class="text-lg text-center text-gray-500">Merek ISB</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div id="wrapper" class="max-w-xl px-4 py-4 mx-auto">
-                    <p>Jurusan Desain Komunikasi (VCD)</p>
-                    <div class="sm:grid sm:h-44 sm:grid-flow-row sm:gap-4 sm:grid-cols-4">
-                        <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
-                            <div>
-                                <p class="text-3xl font-semibold text-center text-gray-800">{{ $cvcd }}</p>
-                                <p class="text-lg text-center text-gray-500">Hak Cipta VCD</p>
-                            </div>
-                        </div>
-
-                        <div id="jh-stats-negative" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
-                            <div>
-                                <p class="text-3xl font-semibold text-center text-gray-800">{{ $pvcd }}</p>
-                                <p class="text-lg text-center text-gray-500">Paten VCD</p>
-                            </div>
-                        </div>
-
-                        <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
-                            <div>
-                                <p class="text-3xl font-semibold text-center text-gray-800">{{ $dvcd }}</p>
-                                <p class="text-lg text-center text-gray-500">Desain Industri VCD</p>
-                            </div>
-                        </div>
-
-                        <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
-                            <div>
-                                <p class="text-3xl font-semibold text-center text-gray-800">{{ $bvcd }}</p>
-                                <p class="text-lg text-center text-gray-500">Merek VCD</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div id="wrapper" class="max-w-xl px-4 py-4 mx-auto">
-                    <p>Jurusan Arsitektur (INA)</p>
-                    <div class="sm:grid sm:h-44 sm:grid-flow-row sm:gap-4 sm:grid-cols-4">
-                        <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
-                            <div>
-                                <p class="text-3xl font-semibold text-center text-gray-800">{{ $cina }}</p>
-                                <p class="text-lg text-center text-gray-500">Hak Cipta INA</p>
-                            </div>
-                        </div>
-
-                        <div id="jh-stats-negative" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
-                            <div>
-                                <p class="text-3xl font-semibold text-center text-gray-800">{{ $pina }}</p>
-                                <p class="text-lg text-center text-gray-500">Paten INA</p>
-                            </div>
-                        </div>
-
-                        <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
-                            <div>
-                                <p class="text-3xl font-semibold text-center text-gray-800">{{ $dina }}</p>
-                                <p class="text-lg text-center text-gray-500">Desain Industri INA</p>
-                            </div>
-                        </div>
-
-                        <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
-                            <div>
-                                <p class="text-3xl font-semibold text-center text-gray-800">{{ $bina }}</p>
-                                <p class="text-lg text-center text-gray-500">Merek INA</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div id="wrapper" class="max-w-xl px-4 py-4 mx-auto">
-                    <p>Jurusan Desain Produk (FPD)</p>
-                    <div class="sm:grid sm:h-44 sm:grid-flow-row sm:gap-4 sm:grid-cols-4">
-                        <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
-                            <div>
-                                <p class="text-3xl font-semibold text-center text-gray-800">{{ $cfpd }}</p>
-                                <p class="text-lg text-center text-gray-500">Hak Cipta FPD</p>
-                            </div>
-                        </div>
-
-                        <div id="jh-stats-negative" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
-                            <div>
-                                <p class="text-3xl font-semibold text-center text-gray-800">{{ $pfpd }}</p>
-                                <p class="text-lg text-center text-gray-500">Paten FPD</p>
-                            </div>
-                        </div>
-
-                        <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
-                            <div>
-                                <p class="text-3xl font-semibold text-center text-gray-800">{{ $dfpd }}</p>
-                                <p class="text-lg text-center text-gray-500">Desain Industri FPD</p>
-                            </div>
-                        </div>
-
-                        <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
-                            <div>
-                                <p class="text-3xl font-semibold text-center text-gray-800">{{ $bfpd }}</p>
-                                <p class="text-lg text-center text-gray-500">Merek FPD</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div id="wrapper" class="max-w-xl px-4 py-4 mx-auto">
-                    <p>Jurusan Kedokteran (MED)</p>
-                    <div class="sm:grid sm:h-44 sm:grid-flow-row sm:gap-4 sm:grid-cols-4">
-                        <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
-                            <div>
-                                <p class="text-3xl font-semibold text-center text-gray-800">{{ $cmed }}</p>
-                                <p class="text-lg text-center text-gray-500">Hak Cipta MED</p>
-                            </div>
-                        </div>
-
-                        <div id="jh-stats-negative" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
-                            <div>
-                                <p class="text-3xl font-semibold text-center text-gray-800">{{ $pmed }}</p>
-                                <p class="text-lg text-center text-gray-500">Paten MED</p>
-                            </div>
-                        </div>
-
-                        <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
-                            <div>
-                                <p class="text-3xl font-semibold text-center text-gray-800">{{ $dmed }}</p>
-                                <p class="text-lg text-center text-gray-500">Desain Industri MED</p>
-                            </div>
-                        </div>
-
-                        <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
-                            <div>
-                                <p class="text-3xl font-semibold text-center text-gray-800">{{ $bmed }}</p>
-                                <p class="text-lg text-center text-gray-500">Merek MED</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div id="wrapper" class="max-w-xl px-4 py-4 mx-auto">
-                    <p>Jurusan Teknologi Pangan (FTP)</p>
-                    <div class="sm:grid sm:h-44 sm:grid-flow-row sm:gap-4 sm:grid-cols-4">
-                        <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
-                            <div>
-                                <p class="text-3xl font-semibold text-center text-gray-800">{{ $cftp }}</p>
-                                <p class="text-lg text-center text-gray-500">Hak Cipta FTP</p>
-                            </div>
-                        </div>
-
-                        <div id="jh-stats-negative" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
-                            <div>
-                                <p class="text-3xl font-semibold text-center text-gray-800">{{ $pftp }}</p>
-                                <p class="text-lg text-center text-gray-500">Paten FTP</p>
-                            </div>
-                        </div>
-
-                        <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
-                            <div>
-                                <p class="text-3xl font-semibold text-center text-gray-800">{{ $dftp }}</p>
-                                <p class="text-lg text-center text-gray-500">Desain Industri FTP</p>
-                            </div>
-                        </div>
-
-                        <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
-                            <div>
-                                <p class="text-3xl font-semibold text-center text-gray-800">{{ $bftp }}</p>
-                                <p class="text-lg text-center text-gray-500">Merek FTP</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div id="wrapper" class="max-w-xl px-4 py-4 mx-auto">
-                    <p>Jurusan S2 Manajemen (MEM)</p>
-                    <div class="sm:grid sm:h-44 sm:grid-flow-row sm:gap-4 sm:grid-cols-4">
-                        <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
-                            <div>
-                                <p class="text-3xl font-semibold text-center text-gray-800">{{ $cmem }}</p>
-                                <p class="text-lg text-center text-gray-500">Hak Cipta S2 Manajemen</p>
-                            </div>
-                        </div>
-
-                        <div id="jh-stats-negative" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
-                            <div>
-                                <p class="text-3xl font-semibold text-center text-gray-800">{{ $pmem }}</p>
-                                <p class="text-lg text-center text-gray-500">Paten S2 Manajemen</p>
-                            </div>
-                        </div>
-
-                        <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
-                            <div>
-                                <p class="text-3xl font-semibold text-center text-gray-800">{{ $dmem }}</p>
-                                <p class="text-lg text-center text-gray-500">Desain Industri S2 Manajemen</p>
-                            </div>
-                        </div>
-
-                        <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
-                            <div>
-                                <p class="text-3xl font-semibold text-center text-gray-800">{{ $bmem }}</p>
-                                <p class="text-lg text-center text-gray-500">Merek S2 Manajemen</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div id="wrapper" class="max-w-xl px-4 py-4 mx-auto">
-                    <p>Dosen yang tidak ber-NIDN / Mahasiswa</p>
-                    <div class="sm:grid sm:h-44 sm:grid-flow-row sm:gap-4 sm:grid-cols-4">
-                        <div id="jh-stats-positive" class="flex flex-col justify-center px-4 py-4 bg-white border border-gray-300 rounded">
-                            <div>
-                                <p class="text-3xl font-semibold text-center text-gray-800">{{ $cdll }}</p>
-                                <p class="text-lg text-center text-gray-500">Hak Cipta Lain-lain</p>
-                            </div>
-                        </div>
-
-                        <div id="jh-stats-negative" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
-                            <div>
-                                <p class="text-3xl font-semibold text-center text-gray-800">{{ $pdll }}</p>
-                                <p class="text-lg text-center text-gray-500">Paten Lain-lain</p>
-                            </div>
-                        </div>
-
-                        <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
-                            <div>
-                                <p class="text-3xl font-semibold text-center text-gray-800">{{ $ddll }}</p>
-                                <p class="text-lg text-center text-gray-500">Desain Industri Lain-lain</p>
-                            </div>
-                        </div>
-
-                        <div id="jh-stats-neutral" class="flex flex-col justify-center px-4 py-4 mt-4 bg-white border border-gray-300 rounded sm:mt-0">
-                            <div>
-                                <p class="text-3xl font-semibold text-center text-gray-800">{{ $bdll }}</p>
-                                <p class="text-lg text-center text-gray-500">Merek Lain-lain</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </div>
