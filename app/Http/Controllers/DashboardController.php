@@ -1040,6 +1040,324 @@ class DashboardController extends Controller
             }
         }
 
+        // PREV
+
+        $copyrightsprev = Copyright::whereBetween('tanggal_permohonan', [$finalnow2, $finalprev])->pluck('helper');
+
+        foreach ($copyrightsprev as $c) {
+            $cpprev[] = explode(',', $c);
+        }
+
+        foreach ($cpprev as $c) {
+            $cdprev[] = array_values( array_flip( array_flip($c)));
+        }
+
+        foreach ($cdprev as $c) {
+            $cdepartmentsprev[] = Lecturer::select('department_id')->whereIn('id', $c)->get();
+        }
+
+        foreach ($cdepartmentsprev as $c) {
+            foreach ($c as $d) {
+                $ceprev[] = $d->department_id;
+            }
+            $cfprev[] = $ceprev;
+            unset($ceprev);
+        }
+
+        foreach ($cfprev as $c) {
+            $cgprev[] = array_values( array_flip( array_flip($c)));
+        }
+
+        foreach ($cgprev as $d) {
+            foreach ($d as $c) {
+                if ($c == 1) {
+                    ++$cibmprev;
+                }
+                elseif ($c == 2) {
+                    ++$cbmiprev;
+                }
+                elseif ($c == 3) {
+                    ++$caccprev;
+                }
+                elseif ($c == 4) {
+                    ++$ccomprev;
+                }
+                elseif ($c == 5) {
+                    ++$chtbprev;
+                }
+                elseif ($c == 6) {
+                    ++$ccbzprev;
+                }
+                elseif ($c == 7) {
+                    ++$cpsyprev;
+                }
+                elseif ($c == 8) {
+                    ++$cimtprev;
+                }
+                elseif ($c == 9) {
+                    ++$cisbprev;
+                }
+                elseif ($c == 10) {
+                    ++$cvcdprev;
+                }
+                elseif ($c == 11) {
+                    ++$cinaprev;
+                }
+                elseif ($c == 12) {
+                    ++$cfpdprev;
+                }
+                elseif ($c == 13) {
+                    ++$cmedprev;
+                }
+                elseif ($c == 14) {
+                    ++$cftpprev;
+                }
+                elseif ($c == 15) {
+                    ++$cmemprev;
+                }
+                elseif ($c == 16) {
+                    ++$cdllprev;
+                }
+            }
+        }
+
+        $patentsprev = Patent::whereBetween('tanggal_permohonan', [$finalnow2, $finalprev])->pluck('helper');
+
+        foreach ($patentsprev as $p) {
+            $ppprev[] = explode(',', $p);
+        }
+
+        foreach ($ppprev as $p) {
+            $pdprev[] = array_values( array_flip( array_flip($p)));
+        }
+
+        foreach ($pdprev as $p) {
+            $pdepartmentsprev[] = Lecturer::select('department_id')->whereIn('id', $p)->get();
+        }
+
+        foreach ($pdepartmentsprev as $p) {
+            foreach ($p as $d) {
+                $peprev[] = $d->department_id;
+            }
+            $pfprev[] = $peprev;
+            unset($peprev);
+        }
+
+        foreach ($pfprev as $p) {
+            $pgprev[] = array_values( array_flip( array_flip($p)));
+        }
+
+        foreach ($pgprev as $d) {
+            foreach ($d as $p) {
+                if ($p == 1) {
+                    ++$pibmprev;
+                }
+                elseif ($p == 2) {
+                    ++$pbmiprev;
+                }
+                elseif ($p == 3) {
+                    ++$paccprev;
+                }
+                elseif ($p == 4) {
+                    ++$pcomprev;
+                }
+                elseif ($p == 5) {
+                    ++$phtbprev;
+                }
+                elseif ($p == 6) {
+                    ++$pcbzprev;
+                }
+                elseif ($p == 7) {
+                    ++$ppsyprev;
+                }
+                elseif ($p == 8) {
+                    ++$pimtprev;
+                }
+                elseif ($p == 9) {
+                    ++$pisbprev;
+                }
+                elseif ($p == 10) {
+                    ++$pvcdprev;
+                }
+                elseif ($p == 11) {
+                    ++$pinaprev;
+                }
+                elseif ($p == 12) {
+                    ++$pfpdprev;
+                }
+                elseif ($p == 13) {
+                    ++$pmedprev;
+                }
+                elseif ($p == 14) {
+                    ++$pftpprev;
+                }
+                elseif ($p == 15) {
+                    ++$pmemprev;
+                }
+                elseif ($p == 16) {
+                    ++$pdllprev;
+                }
+            }
+        }
+
+        $designsprev = Design::whereBetween('tanggal_permohonan', [$finalnow2, $finalprev])->pluck('helper');
+
+        foreach ($designsprev as $d) {
+            $dpprev[] = explode(',', $d);
+        }
+
+        foreach ($dpprev as $d) {
+            $ddprev[] = array_values( array_flip( array_flip($d)));
+        }
+
+        foreach ($ddprev as $d) {
+            $ddepartmentsprev[] = Lecturer::select('department_id')->whereIn('id', $d)->get();
+        }
+
+        foreach ($ddepartmentsprev as $c) {
+            foreach ($c as $d) {
+                $deprev[] = $d->department_id;
+            }
+            $dfprev[] = $deprev;
+            unset($deprev);
+        }
+
+        foreach ($dfprev as $d) {
+            $dgprev[] = array_values( array_flip( array_flip($d)));
+        }
+
+        foreach ($dgprev as $d) {
+            foreach ($d as $c) {
+                if ($c == 1) {
+                    ++$dibmprev;
+                }
+                elseif ($c == 2) {
+                    ++$dbmiprev;
+                }
+                elseif ($c == 3) {
+                    ++$daccprev;
+                }
+                elseif ($c == 4) {
+                    ++$dcomprev;
+                }
+                elseif ($c == 5) {
+                    ++$dhtbprev;
+                }
+                elseif ($c == 6) {
+                    ++$dcbzprev;
+                }
+                elseif ($c == 7) {
+                    ++$dpsyprev;
+                }
+                elseif ($c == 8) {
+                    ++$dimtprev;
+                }
+                elseif ($c == 9) {
+                    ++$disbprev;
+                }
+                elseif ($c == 10) {
+                    ++$dvcdprev;
+                }
+                elseif ($c == 11) {
+                    ++$dinaprev;
+                }
+                elseif ($c == 12) {
+                    ++$dfpdprev;
+                }
+                elseif ($c == 13) {
+                    ++$dmedprev;
+                }
+                elseif ($c == 14) {
+                    ++$dftpprev;
+                }
+                elseif ($c == 15) {
+                    ++$dmemprev;
+                }
+                elseif ($c == 16) {
+                    ++$ddllprev;
+                }
+            }
+        }
+
+        $brandsprev = Brand::whereBetween('tanggal_permohonan', [$finalnow2, $finalprev])->pluck('helper');
+
+        foreach ($brandsprev as $b) {
+            $bpprev[] = explode(',', $b);
+        }
+
+        foreach ($bpprev as $b) {
+            $bdprev[] = array_values( array_flip( array_flip($b)));
+        }
+
+        foreach ($bdprev as $b) {
+            $bdepartmentsprev[] = Lecturer::select('department_id')->whereIn('id', $b)->get();
+        }
+
+        foreach ($bdepartmentsprev as $b) {
+            foreach ($b as $d) {
+                $beprev[] = $d->department_id;
+            }
+            $bfprev[] = $beprev;
+            unset($beprev);
+        }
+
+        foreach ($bfprev as $b) {
+            $bgprev[] = array_values( array_flip( array_flip($b)));
+        }
+
+        foreach ($bgprev as $d) {
+            foreach ($d as $b) {
+                if ($b == 1) {
+                    ++$bibmprev;
+                }
+                elseif ($b == 2) {
+                    ++$bbmiprev;
+                }
+                elseif ($b == 3) {
+                    ++$baccprev;
+                }
+                elseif ($b == 4) {
+                    ++$bcomprev;
+                }
+                elseif ($b == 5) {
+                    ++$bhtbprev;
+                }
+                elseif ($b == 6) {
+                    ++$bcbzprev;
+                }
+                elseif ($b == 7) {
+                    ++$bpsyprev;
+                }
+                elseif ($b == 8) {
+                    ++$bimtprev;
+                }
+                elseif ($b == 9) {
+                    ++$bisbprev;
+                }
+                elseif ($b == 10) {
+                    ++$bvcdprev;
+                }
+                elseif ($b == 11) {
+                    ++$binaprev;
+                }
+                elseif ($b == 12) {
+                    ++$bfpdprev;
+                }
+                elseif ($b == 13) {
+                    ++$bmedprev;
+                }
+                elseif ($b == 14) {
+                    ++$bftpprev;
+                }
+                elseif ($b == 15) {
+                    ++$bmemprev;
+                }
+                elseif ($b == 16) {
+                    ++$bdllprev;
+                }
+            }
+        }
+
         return view('dashboard', compact('cibm', 'cbmi', 'cacc', 'ccom', 'chtb', 'ccbz', 'cpsy', 'cimt', 'cisb', 'cvcd', 'cina', 'cfpd', 'cmed', 'cftp', 'cmem', 'cdll',
             'pibm', 'pbmi', 'pacc', 'pcom', 'phtb', 'pcbz', 'ppsy', 'pimt', 'pisb', 'pvcd', 'pina', 'pfpd', 'pmed', 'pftp', 'pmem', 'pdll',
             'dibm', 'dbmi', 'dacc', 'dcom', 'dhtb', 'dcbz', 'dpsy', 'dimt', 'disb', 'dvcd', 'dina', 'dfpd', 'dmed', 'dftp', 'dmem', 'ddll',
