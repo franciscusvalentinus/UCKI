@@ -25,7 +25,7 @@
 
                         <div class="px-4 py-5 bg-white sm:p-6">
                             <label for="nidn" class="block font-medium text-sm text-gray-700">Lecturer NIDN<label class="text-red-600">*</label></label>
-                            <input type="text" name="nidn" id="nidn" class="form-input rounded-md shadow-sm mt-1 block w-full"
+                            <input type="number" name="nidn" id="nidn" class="form-input rounded-md shadow-sm mt-1 block w-full"
                                    value="{{ old('nidn', '') }}" />
                             @error('nidn')
                             <p class="text-sm text-red-600">{{ $message }}</p>
